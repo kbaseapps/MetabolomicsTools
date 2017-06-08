@@ -27,7 +27,6 @@ MetabolomicsTools::MetabolomicsToolsClient
 
 
 A KBase module: MetabolomicsTools
-This sample module contains one small method - filter_contigs.
 
 
 =cut
@@ -109,9 +108,9 @@ sub new
 
 
 
-=head2 filter_contigs
+=head2 get_spectra
 
-  $output = $obj->filter_contigs($params)
+  $output = $obj->get_spectra($params)
 
 =over 4
 
@@ -120,20 +119,17 @@ sub new
 =begin html
 
 <pre>
-$params is a MetabolomicsTools.FilterContigsParams
-$output is a MetabolomicsTools.FilterContigsResults
-FilterContigsParams is a reference to a hash where the following keys are defined:
-	assembly_input_ref has a value which is a MetabolomicsTools.assembly_ref
+$params is a MetabolomicsTools.GetSpectraParams
+$output is a MetabolomicsTools.SpectraResults
+GetSpectraParams is a reference to a hash where the following keys are defined:
 	workspace_name has a value which is a string
-	min_length has a value which is an int
-assembly_ref is a string
-FilterContigsResults is a reference to a hash where the following keys are defined:
+	metabolic_model has a value which is a MetabolomicsTools.model_ref
+	spectra_source has a value which is a string
+	spectra_query has a value which is a string
+model_ref is a string
+SpectraResults is a reference to a hash where the following keys are defined:
 	report_name has a value which is a string
 	report_ref has a value which is a string
-	assembly_output has a value which is a MetabolomicsTools.assembly_ref
-	n_initial_contigs has a value which is an int
-	n_contigs_removed has a value which is an int
-	n_contigs_remaining has a value which is an int
 
 </pre>
 
@@ -141,36 +137,30 @@ FilterContigsResults is a reference to a hash where the following keys are defin
 
 =begin text
 
-$params is a MetabolomicsTools.FilterContigsParams
-$output is a MetabolomicsTools.FilterContigsResults
-FilterContigsParams is a reference to a hash where the following keys are defined:
-	assembly_input_ref has a value which is a MetabolomicsTools.assembly_ref
+$params is a MetabolomicsTools.GetSpectraParams
+$output is a MetabolomicsTools.SpectraResults
+GetSpectraParams is a reference to a hash where the following keys are defined:
 	workspace_name has a value which is a string
-	min_length has a value which is an int
-assembly_ref is a string
-FilterContigsResults is a reference to a hash where the following keys are defined:
+	metabolic_model has a value which is a MetabolomicsTools.model_ref
+	spectra_source has a value which is a string
+	spectra_query has a value which is a string
+model_ref is a string
+SpectraResults is a reference to a hash where the following keys are defined:
 	report_name has a value which is a string
 	report_ref has a value which is a string
-	assembly_output has a value which is a MetabolomicsTools.assembly_ref
-	n_initial_contigs has a value which is an int
-	n_contigs_removed has a value which is an int
-	n_contigs_remaining has a value which is an int
 
 
 =end text
 
 =item Description
 
-The actual function is declared using 'funcdef' to specify the name
-and input/return arguments to the function.  For all typical KBase
-Apps that run in the Narrative, your function should have the 
-'authentication required' modifier.
+
 
 =back
 
 =cut
 
- sub filter_contigs
+ sub get_spectra
 {
     my($self, @args) = @_;
 
@@ -179,7 +169,7 @@ Apps that run in the Narrative, your function should have the
     if ((my $n = @args) != 1)
     {
 	Bio::KBase::Exceptions::ArgumentValidationError->throw(error =>
-							       "Invalid argument count for function filter_contigs (received $n, expecting 1)");
+							       "Invalid argument count for function get_spectra (received $n, expecting 1)");
     }
     {
 	my($params) = @args;
@@ -187,31 +177,31 @@ Apps that run in the Narrative, your function should have the
 	my @_bad_arguments;
         (ref($params) eq 'HASH') or push(@_bad_arguments, "Invalid type for argument 1 \"params\" (value was \"$params\")");
         if (@_bad_arguments) {
-	    my $msg = "Invalid arguments passed to filter_contigs:\n" . join("", map { "\t$_\n" } @_bad_arguments);
+	    my $msg = "Invalid arguments passed to get_spectra:\n" . join("", map { "\t$_\n" } @_bad_arguments);
 	    Bio::KBase::Exceptions::ArgumentValidationError->throw(error => $msg,
-								   method_name => 'filter_contigs');
+								   method_name => 'get_spectra');
 	}
     }
 
     my $url = $self->{url};
     my $result = $self->{client}->call($url, $self->{headers}, {
-	    method => "MetabolomicsTools.filter_contigs",
+	    method => "MetabolomicsTools.get_spectra",
 	    params => \@args,
     });
     if ($result) {
 	if ($result->is_error) {
 	    Bio::KBase::Exceptions::JSONRPC->throw(error => $result->error_message,
 					       code => $result->content->{error}->{code},
-					       method_name => 'filter_contigs',
+					       method_name => 'get_spectra',
 					       data => $result->content->{error}->{error} # JSON::RPC::ReturnObject only supports JSONRPC 1.1 or 1.O
 					      );
 	} else {
 	    return wantarray ? @{$result->result} : $result->result->[0];
 	}
     } else {
-        Bio::KBase::Exceptions::HTTP->throw(error => "Error invoking method filter_contigs",
+        Bio::KBase::Exceptions::HTTP->throw(error => "Error invoking method get_spectra",
 					    status_line => $self->{client}->status_line,
-					    method_name => 'filter_contigs',
+					    method_name => 'get_spectra',
 				       );
     }
 }
@@ -259,16 +249,16 @@ sub version {
             Bio::KBase::Exceptions::JSONRPC->throw(
                 error => $result->error_message,
                 code => $result->content->{code},
-                method_name => 'filter_contigs',
+                method_name => 'get_spectra',
             );
         } else {
             return wantarray ? @{$result->result} : $result->result->[0];
         }
     } else {
         Bio::KBase::Exceptions::HTTP->throw(
-            error => "Error invoking method filter_contigs",
+            error => "Error invoking method get_spectra",
             status_line => $self->{client}->status_line,
-            method_name => 'filter_contigs',
+            method_name => 'get_spectra',
         );
     }
 }
@@ -305,7 +295,7 @@ sub _validate_version {
 
 
 
-=head2 assembly_ref
+=head2 mspSpectraLibrary
 
 =over 4
 
@@ -313,11 +303,7 @@ sub _validate_version {
 
 =item Description
 
-A 'typedef' allows you to provide a more specific name for
-a type.  Built-in primitive types include 'string', 'int',
-'float'.  Here we define a type named assembly_ref to indicate
-a string that should be set to a KBase ID reference to an
-Assembly data object.
+A mass spectral library in MSP format
 
 
 =item Definition
@@ -340,7 +326,7 @@ a string
 
 
 
-=head2 FilterContigsParams
+=head2 model_ref
 
 =over 4
 
@@ -348,18 +334,7 @@ a string
 
 =item Description
 
-A 'typedef' can also be used to define compound or container
-objects, like lists, maps, and structures.  The standard KBase
-convention is to use structures, as shown here, to define the
-input and output of your function.  Here the input is a
-reference to the Assembly data object, a workspace to save
-output, and a length threshold for filtering.
-
-To define lists and maps, use a syntax similar to C++ templates
-to indicate the type contained in the list or map.  For example:
-
-    list <string> list_of_strings;
-    mapping <string, int> map_of_ints;
+A reference to a kbase metabolic model
 
 
 =item Definition
@@ -367,10 +342,40 @@ to indicate the type contained in the list or map.  For example:
 =begin html
 
 <pre>
-a reference to a hash where the following keys are defined:
-assembly_input_ref has a value which is a MetabolomicsTools.assembly_ref
-workspace_name has a value which is a string
-min_length has a value which is an int
+a string
+</pre>
+
+=end html
+
+=begin text
+
+a string
+
+=end text
+
+=back
+
+
+
+=head2 peak
+
+=over 4
+
+
+
+=item Description
+
+A peak as tuple of mass/charge ratio and intensity
+
+
+=item Definition
+
+=begin html
+
+<pre>
+a reference to a list containing 2 items:
+0: (mz) a float
+1: (intensity) a float
 
 </pre>
 
@@ -378,10 +383,9 @@ min_length has a value which is an int
 
 =begin text
 
-a reference to a hash where the following keys are defined:
-assembly_input_ref has a value which is a MetabolomicsTools.assembly_ref
-workspace_name has a value which is a string
-min_length has a value which is an int
+a reference to a list containing 2 items:
+0: (mz) a float
+1: (intensity) a float
 
 
 =end text
@@ -390,19 +394,46 @@ min_length has a value which is an int
 
 
 
-=head2 FilterContigsResults
+=head2 GetSpectraParams
 
 =over 4
 
 
 
-=item Description
+=item Definition
 
-Here is the definition of the output of the function.  The output
-can be used by other SDK modules which call your code, or the output
-visualizations in the Narrative.  'report_name' and 'report_ref' are
-special output fields- if defined, the Narrative can automatically
-render your Report.
+=begin html
+
+<pre>
+a reference to a hash where the following keys are defined:
+workspace_name has a value which is a string
+metabolic_model has a value which is a MetabolomicsTools.model_ref
+spectra_source has a value which is a string
+spectra_query has a value which is a string
+
+</pre>
+
+=end html
+
+=begin text
+
+a reference to a hash where the following keys are defined:
+workspace_name has a value which is a string
+metabolic_model has a value which is a MetabolomicsTools.model_ref
+spectra_source has a value which is a string
+spectra_query has a value which is a string
+
+
+=end text
+
+=back
+
+
+
+=head2 SpectraResults
+
+=over 4
+
 
 
 =item Definition
@@ -413,10 +444,6 @@ render your Report.
 a reference to a hash where the following keys are defined:
 report_name has a value which is a string
 report_ref has a value which is a string
-assembly_output has a value which is a MetabolomicsTools.assembly_ref
-n_initial_contigs has a value which is an int
-n_contigs_removed has a value which is an int
-n_contigs_remaining has a value which is an int
 
 </pre>
 
@@ -427,10 +454,6 @@ n_contigs_remaining has a value which is an int
 a reference to a hash where the following keys are defined:
 report_name has a value which is a string
 report_ref has a value which is a string
-assembly_output has a value which is a MetabolomicsTools.assembly_ref
-n_initial_contigs has a value which is an int
-n_contigs_removed has a value which is an int
-n_contigs_remaining has a value which is an int
 
 
 =end text

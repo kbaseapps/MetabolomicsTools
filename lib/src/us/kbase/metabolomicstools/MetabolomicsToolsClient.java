@@ -17,7 +17,6 @@ import us.kbase.common.service.UnauthorizedException;
  * <p>Original spec-file module name: MetabolomicsTools</p>
  * <pre>
  * A KBase module: MetabolomicsTools
- * This sample module contains one small method - filter_contigs.
  * </pre>
  */
 public class MetabolomicsToolsClient {
@@ -164,23 +163,19 @@ public class MetabolomicsToolsClient {
     }
 
     /**
-     * <p>Original spec-file function name: filter_contigs</p>
+     * <p>Original spec-file function name: get_spectra</p>
      * <pre>
-     * The actual function is declared using 'funcdef' to specify the name
-     * and input/return arguments to the function.  For all typical KBase
-     * Apps that run in the Narrative, your function should have the 
-     * 'authentication required' modifier.
      * </pre>
-     * @param   params   instance of type {@link us.kbase.metabolomicstools.FilterContigsParams FilterContigsParams}
-     * @return   parameter "output" of type {@link us.kbase.metabolomicstools.FilterContigsResults FilterContigsResults}
+     * @param   params   instance of type {@link us.kbase.metabolomicstools.GetSpectraParams GetSpectraParams}
+     * @return   parameter "output" of type {@link us.kbase.metabolomicstools.SpectraResults SpectraResults}
      * @throws IOException if an IO exception occurs
      * @throws JsonClientException if a JSON RPC exception occurs
      */
-    public FilterContigsResults filterContigs(FilterContigsParams params, RpcContext... jsonRpcContext) throws IOException, JsonClientException {
+    public SpectraResults getSpectra(GetSpectraParams params, RpcContext... jsonRpcContext) throws IOException, JsonClientException {
         List<Object> args = new ArrayList<Object>();
         args.add(params);
-        TypeReference<List<FilterContigsResults>> retType = new TypeReference<List<FilterContigsResults>>() {};
-        List<FilterContigsResults> res = caller.jsonrpcCall("MetabolomicsTools.filter_contigs", args, retType, true, true, jsonRpcContext, this.serviceVersion);
+        TypeReference<List<SpectraResults>> retType = new TypeReference<List<SpectraResults>>() {};
+        List<SpectraResults> res = caller.jsonrpcCall("MetabolomicsTools.get_spectra", args, retType, true, true, jsonRpcContext, this.serviceVersion);
         return res.get(0);
     }
 

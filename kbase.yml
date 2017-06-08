@@ -2,7 +2,7 @@ module-name:
     MetabolomicsTools
 
 module-description:
-    A KBase module
+    This Module contains fuctions for generating mass spectra libraries for metabolomics work
 
 service-language:
     python

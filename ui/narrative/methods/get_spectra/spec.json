@@ -22,23 +22,19 @@
             }
         },
         {
-            "id": "min_length",
+            "id": "spectra_source",
             "optional": false,
-            "advanced": false,
+            "advanced": true,
             "allow_multiple": false,
-            "default_values": [ "" ],
-            "field_type": "text",
-            "text_options": {
-                "validate_as": "int",
-                "min_integer" : 0
-            }
+            "default_values": [ "MONA" ],
+            "field_type": "text"
         }
     ],
     "behavior": {
         "service-mapping": {
             "url": "",
             "name":"MetabolomicsTools",
-            "method": "filter_contigs",
+            "method": "get_spectra",
             "input_mapping": [
                 {
                     "narrative_system_variable": "workspace",
