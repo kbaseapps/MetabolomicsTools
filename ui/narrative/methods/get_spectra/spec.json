@@ -11,22 +11,58 @@
     },
     "parameters": [ 
         {
-            "id": "assembly_input_ref",
+            "id": "metabolic_model",
             "optional": false,
             "advanced": false,
             "allow_multiple": false,
             "default_values": [ "" ],
             "field_type": "text",
             "text_options": {
-                "valid_ws_types": [ "KBaseGenomeAnnotations.Assembly", "KBaseGenomes.ContigSet" ]
+                "valid_ws_types": [ "KBaseFBA.FBAModel" ]
             }
         },
         {
             "id": "spectra_source",
             "optional": false,
+            "advanced": false,
+            "allow_multiple": false,
+            "default_values": [ "" ],
+            "field_type": "dropdown",
+            "dropdown_options": {
+                "options": [
+                    {
+                        "value": "MoNA-export-GC-MS.msp",
+                        "display": "MoNA-GC/MS",
+                        "id": "GC",
+                        "ui_name": "MoNA-GC/MS"
+                    },
+                    {
+                        "value": "MoNA-export-LC-MS_-_MS-MS_-_Negative_Mode.msp",
+                        "display": "MoNA-LC/MS-Negative Mode",
+                        "id": "LC+",
+                        "ui_name": "MoNA-LC/MS-Negative Mode"
+                    },
+                    {
+                        "value": "MoNA-export-LC-MS_-_MS-MS_-_Positive_Mode.msp",
+                        "display": "MoNA-LC/MS-Positive Mode",
+                        "id": "LC-",
+                        "ui_name": "MoNA-LC/MS-Positive Mode"
+                    },
+                    {
+                        "value": "MoNA-API",
+                        "display": "MoNA API Call",
+                        "id": "API",
+                        "ui_name": "MoNA API Call"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "spectra_query",
+            "optional": false,
             "advanced": true,
             "allow_multiple": false,
-            "default_values": [ "MONA" ],
+            "default_values": [ "" ],
             "field_type": "text"
         }
     ],
@@ -41,13 +77,16 @@
                     "target_property": "workspace_name"
                 },
                 {
-                    "input_parameter": "assembly_input_ref",
-                    "target_property": "assembly_input_ref",
-                    "target_type_transform": "resolved-ref"
+                    "input_parameter": "metabolic_model",
+                    "target_property": "metabolic_model"
                 },
                 {
-                    "input_parameter": "min_length",
-                    "target_property": "min_length"
+                    "input_parameter": "spectra_source",
+                    "target_property": "spectra_source"
+                },
+                {
+                    "input_parameter": "spectra_query",
+                    "target_property": "spectra_query"
                 }
             ],
             "output_mapping": [

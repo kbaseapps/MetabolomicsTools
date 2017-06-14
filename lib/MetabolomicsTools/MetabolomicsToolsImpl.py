@@ -74,11 +74,13 @@ class MetabolomicsTools:
         metabolic_model = 'eco'  # allows testing the other functions
 
         # Acquire Spectral Library
-        if params['spectra_source'] == 'MONA':
+        if params['spectra_source'] == 'MoNA-API':
             spec_file = taxaspec.acquire.from_mona(params['spectra_query'],
                                                    workspace)
         else:
-            raise ValueError('%s is not a supported spectra source' % val)
+            spec_file = '/kb/module/data/%s' % params['spectra_source']
+            if not os.path.exists(spec_file):
+                raise ValueError('%s is not a supported spectra source' % val)
 
         # Filter Spectral Library
         n_in_spectra, n_out_spectra, output_file = taxaspec.filter.filter_file(
