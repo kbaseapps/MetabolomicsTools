@@ -3,8 +3,11 @@
 # The header block is where all import statements should live
 import os
 import uuid
+import json
 from KBaseReport.KBaseReportClient import KBaseReport
-import taxaspec
+from Workspace.WorkspaceClient import Workspace
+from taxaspec.filter import filter_file
+from taxaspec import acquire
 #END_HEADER
 
 
@@ -25,7 +28,7 @@ class MetabolomicsTools:
     ######################################### noqa
     VERSION = "0.0.1"
     GIT_URL = "https://github.com/JamesJeffryes/MetabolomicsTools.git"
-    GIT_COMMIT_HASH = "467e29359db2901ab7173c741ff2a78ba7050486"
+    GIT_COMMIT_HASH = "9137e5b52f3559bc352d7c4943a8512f79b9e2af"
 
     #BEGIN_CLASS_HEADER
     # Class variables and functions can be defined in this block
@@ -39,6 +42,7 @@ class MetabolomicsTools:
         # Any configuration parameters that are important should be parsed and
         # saved in the constructor.
         self.callback_url = os.environ['SDK_CALLBACK_URL']
+        self.workspaceURL = config['workspace-url']
         self.shared_folder = config['scratch']
 
         #END_CONSTRUCTOR
@@ -70,21 +74,42 @@ class MetabolomicsTools:
         uuid_string = str(uuid.uuid4())
         workspace = self.shared_folder + "/" + uuid_string
         os.mkdir(workspace)
-        # TODO: Figure out how to acqure metabolic model from the workspace and get inchikeys & names from it
-        metabolic_model = 'eco'  # allows testing the other functions
+        token = ctx['token']
+        print("Token: %s" % token)
+        ws_client = Workspace(self.workspaceURL, token=token)
+        with open('/kb/module/data/Compound_Data.json') as infile:
+            comp_data = json.load(infile)
+        # acquire metabolic model from the workspace and get inchikeys & names
+        try:
+            kb_model = ws_client.get_objects(
+                [{'name': params['metabolic_model'],
+                  'workspace': params['workspace_name']}])[0]
+        except Exception as e:
+            raise ValueError(
+                'Unable to get metabolic model object from workspace: (' +
+                params['workspace_name'] + '/' +
+                params['metabolic_model'] + ')' + str(e))
+        kb_ids = [x['id'].replace('_c0', '')
+                  for x in kb_model['data']['modelcompounds']]
+        names, inchis = set(), set()
+        for cid in kb_ids:
+            if cid in comp_data:
+                names.update(comp_data[cid].get('names', None))
+                inchis.add(comp_data[cid].get('inchikey', None))
 
         # Acquire Spectral Library
         if params['spectra_source'] == 'MoNA-API':
-            spec_file = taxaspec.acquire.from_mona(params['spectra_query'],
-                                                   workspace)
+            spec_file = acquire.from_mona(params['spectra_query'], workspace)
         else:
             spec_file = '/kb/module/data/%s' % params['spectra_source']
             if not os.path.exists(spec_file):
-                raise ValueError('%s is not a supported spectra source' % val)
+                raise ValueError('%s is not a supported spectra source'
+                                 % params['spectra_source'])
 
         # Filter Spectral Library
-        n_in_spectra, n_out_spectra, output_file = taxaspec.filter.filter_file(
-            spec_file, metabolic_model)
+        n_in_spectra, n_out_spectra, output_file = filter_file(spec_file, None,
+                                                               inchis, names)
+        print(n_in_spectra, n_out_spectra)
 
         # Package report
         report_files = [{'path': workspace + "/" + output_file,
@@ -95,8 +120,8 @@ class MetabolomicsTools:
         report_params = {
             'objects_created': [],
             'text_message': 'Acquired %s matching spectra and filtered library'
-                            ' to %s spectra which match the %s model'
-                            % (n_in_spectra, n_out_spectra, metabolic_model),
+                            ' to %s spectra which match the %s model' % (
+                n_in_spectra, n_out_spectra, params['metabolic_model']),
             'file_links': report_files,
             'workspace_name': params['workspace_name'],
             'report_object_name': 'mass_spectra_report_' + uuid_string
