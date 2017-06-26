@@ -4,6 +4,7 @@
 import os
 import uuid
 import json
+import shutil
 from KBaseReport.KBaseReportClient import KBaseReport
 from Workspace.WorkspaceClient import Workspace
 from taxaspec.filter import filter_file
@@ -72,10 +73,9 @@ class MetabolomicsTools:
                                  % val)
 
         uuid_string = str(uuid.uuid4())
-        workspace = self.shared_folder + "/" + uuid_string
-        os.mkdir(workspace)
+        scratch = self.shared_folder + "/" + uuid_string
+        os.mkdir(scratch)
         token = ctx['token']
-        print("Token: %s" % token)
         ws_client = Workspace(self.workspaceURL, token=token)
         with open('/kb/module/data/Compound_Data.json') as infile:
             comp_data = json.load(infile)
@@ -99,7 +99,7 @@ class MetabolomicsTools:
 
         # Acquire Spectral Library
         if params['spectra_source'] == 'MoNA-API':
-            spec_file = acquire.from_mona(params['spectra_query'], workspace)
+            spec_file = acquire.from_mona(params['spectra_query'], scratch)
         else:
             spec_file = '/kb/module/data/%s' % params['spectra_source']
             if not os.path.exists(spec_file):
@@ -109,12 +109,14 @@ class MetabolomicsTools:
         # Filter Spectral Library
         n_in_spectra, n_out_spectra, output_file = filter_file(spec_file, None,
                                                                inchis, names)
+        new_path = scratch + '/' + os.path.basename(output_file)
+        shutil.move(output_file, new_path)
         print(n_in_spectra, n_out_spectra)
 
         # Package report
-        report_files = [{'path': workspace + "/" + output_file,
-                         'name': output_file,
-                         'label': ".".join(output_file.split(".")[1:]),
+        report_files = [{'path': new_path,
+                         'name': os.path.basename(new_path),
+                         'label': os.path.basename(new_path),
                          'description': 'Spectral Library filtered with '
                                         'supplied metabolic model'}]
         report_params = {

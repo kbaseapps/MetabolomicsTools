@@ -23,7 +23,6 @@ class MetabolomicsToolsTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         token = environ.get('KB_AUTH_TOKEN', None)
-        print(environ)
         config_file = environ.get('KB_DEPLOYMENT_CONFIG', None)
         cls.cfg = {}
         config = ConfigParser()
@@ -85,4 +84,4 @@ class MetabolomicsToolsTest(unittest.TestCase):
         result = self.getImpl().get_spectra(self.getContext(), params)
         print('RESULT:')
         pprint(result)
-        assert True
+        assert result
