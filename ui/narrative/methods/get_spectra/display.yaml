@@ -36,7 +36,7 @@ parameters :
         ui-name : |
             Spectra Source
         short-hint : |
-            The database to pull spectra from, currently the only valid input is MONA
+            The database to pull spectra from, currently the only options are MONA databases
     spectra_query :
         ui-name : |
             Spectra Source Query

@@ -1,0 +1,339 @@
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(18:4(9E,11E,13E,15E)/20:4(5E,8E,11E,14E))
+DB#: LipidBlast121219
+InChIKey: ZRJKMRBCGYQWQY-QYWWKJLHSA-N
+MW: 862.4900988080001
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.1373" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860884696311" "mass error=630.0860884696311" "Last Auto-Curation=1.488738294129E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6,8,10-14,16-19,21-22,24,28,30,40-41,44-47,50-52H,3-5,7,9,15,20,23,25-27,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6,8,10-14,16-19,21-22,24,28,30,40-41,44-47,50-52H,3-5,7,9,15,20,23,25-27,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(20:5(5Z,8Z,11Z,14Z,17Z)/18:3(9Z,12Z,15Z))
+DB#: LipidBlast122130
+InChIKey: FIVLMDSAOXGTCZ-GSQDOBKHSA-N
+MW: 862.4900988080001
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.2746" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860884696311" "mass error=630.0860884696311" "Last Auto-Curation=1.488738556022E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h5-8,11-14,17-19,21-23,27,29,40-41,44-47,50-52H,3-4,9-10,15-16,20,24-26,28,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h5-8,11-14,17-19,21-23,27,29,40-41,44-47,50-52H,3-4,9-10,15-16,20,24-26,28,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+583.25784 10.010010
+559.25784 10.010010
+301.21662 10.010010
+277.21662 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(16:5/22:3)
+DB#: LipidBlast123683
+InChIKey: PLQLLEIERPDTHW-XKJQMORISA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.02713" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.4887390328E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-24-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-23-16-14-12-10-8-6-4-2/h5-8,10-14,16-18,23,26,28,30,40-41,44-47,50-52H,3-4,9,15,19-22,24-25,27,29,31-39H2,1-2H3,(H,53,54,55)/t40?,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-24-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-23-16-14-12-10-8-6-4-2/h5-8,10-14,16-18,23,26,28,30,40-41,44-47,50-52H,3-4,9,15,19-22,24-25,27,29,31-39H2,1-2H3,(H,53,54,55)/t40?,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+615.32040 10.010010
+527.19528 10.010010
+333.27918 10.010010
+245.15406 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(18:4(6Z,9Z,12Z,15Z)/20:4(7E,10E,13E,16E))
+DB#: LipidBlast121155
+InChIKey: SMDBHUMWKYYYHA-CAIMKYIFSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.34476" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738283387E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6-9,12-15,18-21,24-27,40-41,44-47,50-52H,3-5,10-11,16-17,22-23,28-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6-9,12-15,18-21,24-27,40-41,44-47,50-52H,3-5,10-11,16-17,22-23,28-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(18:4(6Z,9Z,12Z,15Z)/20:4(5Z,8Z,11Z,14Z))
+DB#: LipidBlast121154
+InChIKey: LZRGLSRJNZEDSQ-QKMQRRGHSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.40551" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738283297E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6,8,11-14,17-19,21-22,24-25,27-28,30,40-41,44-47,50-52H,3-5,7,9-10,15-16,20,23,26,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6,8,11-14,17-19,21-22,24-25,27-28,30,40-41,44-47,50-52H,3-5,7,9-10,15-16,20,23,26,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(18:4(6Z,9Z,12Z,15Z)/20:4(5E,8E,11E,14E))
+DB#: LipidBlast121153
+InChIKey: LZRGLSRJNZEDSQ-BXYTZGKMSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.40551" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738283127E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6,8,11-14,17-19,21-22,24-25,27-28,30,40-41,44-47,50-52H,3-5,7,9-10,15-16,20,23,26,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6,8,11-14,17-19,21-22,24-25,27-28,30,40-41,44-47,50-52H,3-5,7,9-10,15-16,20,23,26,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(18:3(9Z,12Z,15Z)/20:5(5Z,8Z,11Z,14Z,17Z))
+DB#: LipidBlast121090
+InChIKey: YBLCFZUEDVPCGH-RMZGMLOLSA-N
+MW: 862.4900988080001
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.26037" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860884696311" "mass error=630.0860884696311" "Last Auto-Curation=1.488738270061E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h5-8,11-14,17-19,21-22,24,28,30,40-41,44-47,50-52H,3-4,9-10,15-16,20,23,25-27,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h5-8,11-14,17-19,21-22,24,28,30,40-41,44-47,50-52H,3-4,9-10,15-16,20,23,25-27,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+583.25784 10.010010
+559.25784 10.010010
+301.21662 10.010010
+277.21662 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(20:4(5Z,8Z,11Z,14Z)/18:4(6Z,9Z,12Z,15Z))
+DB#: LipidBlast121999
+InChIKey: YHXXTDMMTLQNRO-DFGYUPNZSA-N
+MW: 862.4900988080001
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.4142" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860884696311" "mass error=630.0860884696311" "Last Auto-Curation=1.488738518494E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6,8,11-14,17-19,21-23,26-29,40-41,44-47,50-52H,3-5,7,9-10,15-16,20,24-25,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6,8,11-14,17-19,21-23,26-29,40-41,44-47,50-52H,3-5,7,9-10,15-16,20,24-25,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(16:3/22:5)
+DB#: LipidBlast123503
+InChIKey: LOBDAIQSLPBLTL-STPWXHFSSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.09754" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738981436E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-24-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-23-16-14-12-10-8-6-4-2/h5-8,10-14,16-18,20-21,24-25,40-41,44-47,50-52H,3-4,9,15,19,22-23,26-39H2,1-2H3,(H,53,54,55)/t40?,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-24-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-23-16-14-12-10-8-6-4-2/h5-8,10-14,16-18,20-21,24-25,40-41,44-47,50-52H,3-4,9,15,19,22-23,26-39H2,1-2H3,(H,53,54,55)/t40?,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+611.28912 10.010010
+531.22656 10.010010
+329.24790 10.010010
+249.18534 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(20:4(5Z,8Z,11Z,14Z)/18:4(9E,11E,13E,15E))
+DB#: LipidBlast122000
+InChIKey: PSKNTXXWDWTNMW-APNOXAQYSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.15345" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738518668E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6,8,10-14,16-19,21-23,27,29,40-41,44-47,50-52H,3-5,7,9,15,20,24-26,28,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6,8,10-14,16-19,21-23,27,29,40-41,44-47,50-52H,3-5,7,9,15,20,24-26,28,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(18:3(6Z,9Z,12Z)/20:5(5Z,8Z,11Z,14Z,17Z))
+DB#: LipidBlast121024
+InChIKey: VJPHYPXVWFMONP-MWRNGZLOSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.40279" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738256341E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h5,7,11-14,17-19,21-22,24-25,27-28,30,40-41,44-47,50-52H,3-4,6,8-10,15-16,20,23,26,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h5,7,11-14,17-19,21-22,24-25,27-28,30,40-41,44-47,50-52H,3-4,6,8-10,15-16,20,23,26,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+583.25784 10.010010
+559.25784 10.010010
+301.21662 10.010010
+277.21662 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(18:4(9E,11E,13E,15E)/20:4(7E,10E,13E,16E))
+DB#: LipidBlast121221
+InChIKey: VWUYJIGIMCGTCS-KNMFQCPOSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.12837" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738294404E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6-10,12-16,18-21,24,26,40-41,44-47,50-52H,3-5,11,17,22-23,25,27-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6-10,12-16,18-21,24,26,40-41,44-47,50-52H,3-5,11,17,22-23,25,27-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(18:4(9E,11E,13E,15E)/20:4(5Z,8Z,11Z,14Z))
+DB#: LipidBlast121220
+InChIKey: ZRJKMRBCGYQWQY-RDRKJCOYSA-N
+MW: 862.4900988080001
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.1373" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860884696311" "mass error=630.0860884696311" "Last Auto-Curation=1.488738294255E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6,8,10-14,16-19,21-22,24,28,30,40-41,44-47,50-52H,3-5,7,9,15,20,23,25-27,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-43(49)58-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)37-56-42(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h6,8,10-14,16-19,21-22,24,28,30,40-41,44-47,50-52H,3-5,7,9,15,20,23,25-27,29,31-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(16:4/22:4)
+DB#: LipidBlast123593
+InChIKey: AHSKDOKLEDCDOW-IETUUGIESA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.06517" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488739006686E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-24-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-23-16-14-12-10-8-6-4-2/h5-8,10-14,16-18,20-21,23,26,40-41,44-47,50-52H,3-4,9,15,19,22,24-25,27-39H2,1-2H3,(H,53,54,55)/t40?,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-24-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-23-16-14-12-10-8-6-4-2/h5-8,10-14,16-18,20-21,23,26,40-41,44-47,50-52H,3-4,9,15,19,22,24-25,27-39H2,1-2H3,(H,53,54,55)/t40?,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+613.30476 10.010010
+529.21092 10.010010
+331.26354 10.010010
+247.16970 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(20:5(5Z,8Z,11Z,14Z,17Z)/18:3(6Z,9Z,12Z))
+DB#: LipidBlast122129
+InChIKey: HGDDQUUHYZYTHQ-VETGTTHUSA-N
+MW: 862.4900988080001
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.41167" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860884696311" "mass error=630.0860884696311" "Last Auto-Curation=1.488738555903E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h5,7,11-14,17-19,21-23,26-29,40-41,44-47,50-52H,3-4,6,8-10,15-16,20,24-25,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h5,7,11-14,17-19,21-23,26-29,40-41,44-47,50-52H,3-4,6,8-10,15-16,20,24-25,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+583.25784 10.010010
+559.25784 10.010010
+301.21662 10.010010
+277.21662 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(20:4(7E,10E,13E,16E)/18:4(9E,11E,13E,15E))
+DB#: LipidBlast122066
+InChIKey: NEICCIXLIUTABV-YFPRQOAMSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.13231" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738538726E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6-10,12-16,18-21,23,25,40-41,44-47,50-52H,3-5,11,17,22,24,26-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6-10,12-16,18-21,23,25,40-41,44-47,50-52H,3-5,11,17,22,24,26-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(16:2/22:6)
+DB#: LipidBlast123413
+InChIKey: KHTGFTLTTQLIJJ-KURWKXKTSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.30926" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738955907E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-24-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-23-16-14-12-10-8-6-4-2/h5,7,11,13,17-18,20-21,23-26,29-32,40-41,44-47,50-52H,3-4,6,8-10,12,14-16,19,22,27-28,33-39H2,1-2H3,(H,53,54,55)/t40?,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-24-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-23-16-14-12-10-8-6-4-2/h5,7,11,13,17-18,20-21,23-26,29-32,40-41,44-47,50-52H,3-4,6,8-10,12,14-16,19,22,27-28,33-39H2,1-2H3,(H,53,54,55)/t40?,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+609.27348 10.010010
+533.24220 10.010010
+327.23226 10.010010
+251.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(20:4(7E,10E,13E,16E)/18:4(6Z,9Z,12Z,15Z))
+DB#: LipidBlast122065
+InChIKey: HHLXYQDQHRTISC-IATQUUBFSA-N
+MW: 862.490098808
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.33942" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860883376647" "mass error=630.0860883376647" "Last Auto-Curation=1.488738538704E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6-9,12-15,18-21,23,25-26,28,40-41,44-47,50-52H,3-5,10-11,16-17,22,24,27,29-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6-9,12-15,18-21,23,25-26,28,40-41,44-47,50-52H,3-5,10-11,16-17,22,24,27,29-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(20:4(5E,8E,11E,14E)/18:4(9E,11E,13E,15E))
+DB#: LipidBlast121934
+InChIKey: PSKNTXXWDWTNMW-LGDADDPYSA-N
+MW: 862.4900988080001
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.15345" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860884696311" "mass error=630.0860884696311" "Last Auto-Curation=1.488738503631E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6,8,10-14,16-19,21-23,27,29,40-41,44-47,50-52H,3-5,7,9,15,20,24-26,28,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6,8,10-14,16-19,21-23,27,29,40-41,44-47,50-52H,3-5,7,9,15,20,24-26,28,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020
+
+Name: SQDG 38:8
+Synonym: SQDG 38:8
+Synonym: SQDG(20:4(5E,8E,11E,14E)/18:4(6Z,9Z,12Z,15Z))
+DB#: LipidBlast121933
+InChIKey: YHXXTDMMTLQNRO-OATHJAPUSA-N
+MW: 862.4900988079999
+Formula: C47H74O12S
+PrecursorMZ: 861.48228
+Comments: "precursor m/z=861.48228" "precursor type=[M-H]-" "retention time=3.4142" "column=Waters Acquity UPLC CSH C18 (100 mm length x 2.1 mm internal diameter; 1.7 µm particles)" "mobile phase a=60:40 v/v acetonitrile:water + 10 mM ammonium formiate + 0.1% formic acid" "mobile phase b=90:10 v/v isopropanol:acetonitrile + 10 mM ammonium formiate + 0.1% formic acid" "column temperature=65°C" "flow-rate=0.6 mL/min" "injection temperature=4°C" "gradient= 0 min 15% (B), 0–2 min 30% (B), 2–2.5 min 48% (B), 2.5–11 min 82% (B), 11–11.5 min 99% (B), 11.5–12 min 99% (B), 12–12.1 min 15% (B), 12.1–15 min 15% (B)" "injection volume=5 µL" "esi capillary voltage=–3.5 kV" "collision energy=40 eV" "mass accuracy=0.6300860882056981" "mass error=630.0860882056982" "Last Auto-Curation=1.488738503446E12" "InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6,8,11-14,17-19,21-23,26-29,40-41,44-47,50-52H,3-5,7,9-10,15-16,20,24-25,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1" "Observed InChI Code=InChI=1S/C47H74O12S/c1-3-5-7-9-11-13-15-17-19-20-22-23-25-27-29-31-33-35-42(48)56-37-40(38-57-47-46(52)45(51)44(50)41(59-47)39-60(53,54)55)58-43(49)36-34-32-30-28-26-24-21-18-16-14-12-10-8-6-4-2/h6,8,11-14,17-19,21-23,26-29,40-41,44-47,50-52H,3-5,7,9-10,15-16,20,24-25,30-39H2,1-2H3,(H,53,54,55)/t40-,41-,44-,45?,46?,47+/m1/s1"
+Num Peaks: 6
+861.48228 100.000000
+585.27348 10.010010
+557.24220 10.010010
+303.23226 10.010010
+275.20098 10.010010
+225.00690 20.020020

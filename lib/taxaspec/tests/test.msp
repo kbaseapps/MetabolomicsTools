@@ -1,0 +1,3025 @@
+Name: 1-NITROPYRENE
+Synonym: 1-NITROPYRENE
+DB#: JP000001
+InChIKey: ALRLPDGCPYIVHP-UHFFFAOYSA-N
+MW: 247.063328528
+Formula: C16H9NO2
+PrecursorMZ: 0
+Comments: "accession=JP000001" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=247.06333" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359680" "InChI Code=InChI=1S/C16H9NO2/c18-17(19)14-9-7-12-5-4-10-2-1-3-11-6-8-13(14)16(12)15(10)11/h1-9H" "Observed InChI Code=InChI=1S/C16H9NO2/c18-17(19)14-9-7-12-5-4-10-2-1-3-11-6-8-13(14)16(12)15(10)11/h1-9H"
+Num Peaks: 75
+51 2.66
+55 8
+57 7.33
+58 1.33
+59 1.33
+60 14
+61 1.33
+62 3.33
+63 3.33
+66 1.33
+68 8.66
+70 2
+72 5.33
+73 7.33
+74 3.33
+75 2.66
+76 2
+78 1.33
+80 4
+81 2
+82 1.33
+83 3.33
+86 12.66
+87 8.66
+92 2
+93 10
+94 6
+98 14.66
+99 83.33
+100 60.66
+104 4
+107 1.33
+108 1.33
+110 3.33
+112 1.33
+113 1.33
+115 1.33
+116 1.33
+120 1.33
+122 4
+123 2.66
+124 2.66
+125 2
+126 1.33
+134 1.33
+135 2
+137 1.33
+147 1.33
+149 2
+150 4.66
+151 3.33
+159 2
+162 2
+163 2.66
+173 2
+174 8.66
+175 4.66
+177 2
+187 5.33
+188 4.66
+189 56.66
+190 12
+191 16.66
+198 10.66
+199 9.33
+200 72.66
+201 99.99
+202 16
+203 1.33
+207 1.33
+214 1.33
+217 25.33
+218 5.33
+247 52.66
+248 10.16
+
+
+Name: 2,4-DINITROPHENOL
+Synonym: 2,4-DINITROPHENOL
+DB#: JP000002
+InChIKey: UFBJCMHMOXMLKC-UHFFFAOYSA-N
+MW: 184.01202122799998
+Formula: C6H4N2O5
+PrecursorMZ: 0
+Comments: "accession=JP000002" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=184.01202" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359719" "InChI Code=InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H" "Observed InChI Code=InChI=1S/C6H4N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h1-3,9H"
+Num Peaks: 64
+51 27.22
+52 19.9
+53 61.8
+54 6.76
+55 13.95
+56 3.86
+57 11.52
+60 6.43
+61 13.38
+62 36.19
+63 61.37
+64 26.2
+65 6.74
+66 5.1
+67 7.43
+68 10.32
+69 29.16
+70 5.53
+71 6.11
+73 4.14
+74 3.92
+75 3.49
+76 4.33
+77 6.21
+78 5.1
+79 35.07
+80 9.85
+81 16
+82 5.37
+83 6.13
+84 2.96
+85 3
+90 12.01
+91 53.25
+92 28.32
+93 18.25
+94 3.51
+95 6.41
+96 5.43
+97 5.12
+98 2.43
+105 3.76
+106 6.35
+107 38.97
+108 7.11
+109 3.98
+111 2.63
+120 2.12
+121 4.45
+122 4
+123 3.14
+126 2.12
+136 2.77
+137 3.14
+138 3.55
+149 4.12
+153 4.02
+154 39.3
+155 3.16
+168 3.29
+183 3.26
+184 99.99
+185 8.17
+186 1.34
+
+
+Name: 3,4-DICHLOROPHENOL
+Synonym: 3,4-DICHLOROPHENOL
+DB#: JP000003
+InChIKey: WDNBURPWRNALGP-UHFFFAOYSA-N
+MW: 161.963920108
+Formula: C6H4Cl2O
+PrecursorMZ: 0
+Comments: "accession=JP000003" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=161.96392" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359729" "InChI Code=InChI=1S/C6H4Cl2O/c7-5-2-1-4(9)3-6(5)8/h1-3,9H" "Observed InChI Code=InChI=1S/C6H4Cl2O/c7-5-2-1-4(9)3-6(5)8/h1-3,9H"
+Num Peaks: 36
+51 2.25
+53 6.4
+60 4.13
+61 9.78
+62 20.36
+63 32.41
+64 5.58
+71 2.16
+72 8.31
+73 13.57
+74 6.23
+75 5.23
+81 8.28
+82 5.27
+83 2.81
+91 2.06
+97 6.25
+98 25.55
+99 33.74
+100 9.84
+101 12.32
+107 2.31
+109 2.08
+126 7.67
+127 3.67
+128 2.81
+133 5.09
+134 7.44
+135 3.61
+136 4.75
+161 3.6
+162 99.99
+163 8.7
+164 62.28
+165 4.54
+166 9.78
+
+
+Name: 2,5-DICHLOROPHENOL
+Synonym: 2,5-DICHLOROPHENOL
+DB#: JP000004
+InChIKey: RANCECPPZPIPNO-UHFFFAOYSA-N
+MW: 161.963920108
+Formula: C6H4Cl2O
+PrecursorMZ: 0
+Comments: "accession=JP000004" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=161.96392" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359740" "InChI Code=InChI=1S/C6H4Cl2O/c7-4-1-2-5(8)6(9)3-4/h1-3,9H" "Observed InChI Code=InChI=1S/C6H4Cl2O/c7-4-1-2-5(8)6(9)3-4/h1-3,9H"
+Num Peaks: 44
+51 5.05
+52 2.29
+53 22.87
+59 3.69
+60 16.58
+61 33.26
+62 62.1
+63 99.99
+64 11.61
+65 2.73
+66 4.11
+71 2.98
+72 12.03
+73 32.28
+74 12.69
+75 11.42
+81 6.65
+82 4.64
+83 3.82
+84 3.02
+85 2.81
+87 2.86
+89 2.17
+90 2.05
+91 6.28
+96 3.57
+97 15.64
+98 39
+99 33.72
+100 13.84
+101 10.87
+126 9.01
+127 3.11
+128 3.25
+133 6.28
+134 4.28
+135 4.21
+136 2.59
+161 11.74
+162 89.04
+163 12.37
+164 52.89
+165 4.62
+166 8.78
+
+
+Name: 2,6-DICHLOROPHENOL
+Synonym: 2,6-DICHLOROPHENOL
+DB#: JP000005
+InChIKey: HOLHYSJJBXSLMV-UHFFFAOYSA-N
+MW: 161.963920108
+Formula: C6H4Cl2O
+PrecursorMZ: 0
+Comments: "accession=JP000005" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=161.96392" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359766" "InChI Code=InChI=1S/C6H4Cl2O/c7-4-2-1-3-5(8)6(4)9/h1-3,9H" "Observed InChI Code=InChI=1S/C6H4Cl2O/c7-4-2-1-3-5(8)6(4)9/h1-3,9H"
+Num Peaks: 33
+53 7.25
+60 3
+61 8.88
+62 17.84
+63 70.92
+64 8.02
+65 2.01
+72 5.48
+73 12.35
+74 4.63
+75 4.81
+81 6.73
+82 4.37
+83 2.09
+91 3.83
+97 7.27
+98 34.04
+99 15.04
+100 13.17
+101 4.37
+107 2.61
+125 2.01
+126 33.42
+127 3.34
+128 11.41
+133 3.34
+135 2.17
+161 2.35
+162 99.99
+163 8.23
+164 63.43
+165 4.35
+166 9.91
+
+
+Name: 2,3-DICHLOROPHENOL
+Synonym: 2,3-DICHLOROPHENOL
+DB#: JP000006
+InChIKey: UMPSXRYVXUPCOS-UHFFFAOYSA-N
+MW: 161.963920108
+Formula: C6H4Cl2O
+PrecursorMZ: 0
+Comments: "accession=JP000006" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=161.96392" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359781" "InChI Code=InChI=1S/C6H4Cl2O/c7-4-2-1-3-5(9)6(4)8/h1-3,9H" "Observed InChI Code=InChI=1S/C6H4Cl2O/c7-4-2-1-3-5(9)6(4)8/h1-3,9H"
+Num Peaks: 42
+51 4.43
+53 10.39
+60 9.21
+61 24.93
+62 43.19
+63 99.99
+64 12.57
+65 4.81
+66 3.39
+71 3.67
+72 15.34
+73 25.07
+74 11.84
+75 8.79
+81 4.78
+82 3.25
+83 2.63
+84 3.87
+85 2.49
+87 5.09
+89 2.21
+91 6.02
+96 3.11
+97 12.05
+98 35.88
+99 22.09
+100 13.5
+101 6.26
+107 3.33
+109 2.73
+125 3.11
+126 59.16
+127 5.61
+128 19.32
+133 5.33
+135 2.84
+161 2.52
+162 68.96
+163 6.51
+164 51.64
+165 2.9
+166 7.58
+
+
+Name: 2,4-DICHLOROPHENOL
+Synonym: 2,4-DICHLOROPHENOL
+DB#: JP000007
+InChIKey: HFZWRUODUSTPEG-UHFFFAOYSA-N
+MW: 161.963920108
+Formula: C6H4Cl2O
+PrecursorMZ: 0
+Comments: "accession=JP000007" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=161.96392" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359785" "InChI Code=InChI=1S/C6H4Cl2O/c7-4-1-2-6(9)5(8)3-4/h1-3,9H" "Observed InChI Code=InChI=1S/C6H4Cl2O/c7-4-1-2-6(9)5(8)3-4/h1-3,9H"
+Num Peaks: 37
+51 3.07
+53 12.34
+60 6.21
+61 19.31
+62 35.08
+63 99.99
+64 10.24
+66 2.25
+71 3.05
+72 10.59
+73 19.52
+74 8.59
+75 6.44
+81 6.82
+82 4.45
+83 2.77
+84 2.03
+91 2.34
+96 3.78
+97 31.79
+98 38.03
+99 21.59
+100 13.06
+101 4.67
+125 4.82
+126 20.32
+127 3.76
+128 7.38
+133 4.02
+134 2.72
+135 2.64
+161 19.22
+162 94.19
+163 15.34
+164 55.32
+165 5.54
+166 9.19
+
+
+Name: 3,5-DICHLOROPHENOL
+Synonym: 3,5-DICHLOROPHENOL
+DB#: JP000008
+InChIKey: VPOMSPZBQMDLTM-UHFFFAOYSA-N
+MW: 161.963920108
+Formula: C6H4Cl2O
+PrecursorMZ: 0
+Comments: "accession=JP000008" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=161.96392" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359831" "InChI Code=InChI=1S/C6H4Cl2O/c7-4-1-5(8)3-6(9)2-4/h1-3,9H" "Observed InChI Code=InChI=1S/C6H4Cl2O/c7-4-1-5(8)3-6(9)2-4/h1-3,9H"
+Num Peaks: 32
+51 1.24
+53 4.19
+60 3.61
+61 8.59
+62 16.38
+63 31.53
+64 4.94
+72 4.88
+73 10.01
+74 4.53
+75 3.92
+81 6.85
+82 4.37
+83 2.46
+97 7.3
+98 27.86
+99 28.43
+100 10.31
+101 9.88
+126 8.1
+127 4.51
+128 3.3
+133 4.08
+134 6.58
+135 2.96
+136 4.15
+161 3.31
+162 99.99
+163 8.57
+164 60.06
+165 4.43
+166 9.68
+
+
+Name: 2,4,5-TRICHLOROPHENOL
+Synonym: 2,4,5-TRICHLOROPHENOL
+DB#: JP000009
+InChIKey: LHJGJYXLEPZJPM-UHFFFAOYSA-N
+MW: 195.924947756
+Formula: C6H3Cl3O
+PrecursorMZ: 0
+Comments: "accession=JP000009" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=195.92495" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359835" "InChI Code=InChI=1S/C6H3Cl3O/c7-3-1-5(9)6(10)2-4(3)8/h1-2,10H" "Observed InChI Code=InChI=1S/C6H3Cl3O/c7-3-1-5(9)6(10)2-4(3)8/h1-2,10H"
+Num Peaks: 65
+51 2.58
+53 14.73
+59 2.03
+60 12.75
+61 30.62
+62 36.79
+63 19.11
+64 2.15
+65 5.23
+66 13.42
+67 7.46
+69 2.46
+71 6.55
+72 13.85
+73 16.02
+74 7.55
+75 4.47
+79 2.34
+80 8.06
+81 5.21
+82 3.22
+83 7.1
+84 6.05
+85 6.38
+86 2.53
+87 3.44
+89 1.93
+95 3.8
+96 33.63
+97 67.27
+98 25.02
+99 31.7
+100 5.86
+106 2.03
+107 8.66
+108 3.94
+109 6.55
+131 12.51
+132 48.06
+133 32
+134 33.42
+135 18.37
+136 6.55
+137 2.96
+149 6.48
+151 3.39
+160 10.69
+161 4.76
+162 10.76
+163 3.58
+164 3.61
+167 4.06
+169 3.89
+177 4.76
+179 2.94
+192 6.69
+194 4.64
+195 6.79
+196 99.99
+197 11.45
+198 92.58
+199 7.82
+200 29.54
+201 2.08
+202 3.15
+
+
+Name: 2,4,6-TRICHLOROPHENOL
+Synonym: 2,4,6-TRICHLOROPHENOL
+DB#: JP000010
+InChIKey: LINPIYWFGCPVIE-UHFFFAOYSA-N
+MW: 195.924947756
+Formula: C6H3Cl3O
+PrecursorMZ: 0
+Comments: "accession=JP000010" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=195.92495" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359847" "InChI Code=InChI=1S/C6H3Cl3O/c7-3-1-4(8)6(10)5(9)2-3/h1-2,10H" "Observed InChI Code=InChI=1S/C6H3Cl3O/c7-3-1-4(8)6(10)5(9)2-3/h1-2,10H"
+Num Peaks: 66
+53 14.63
+55 2.49
+57 2.2
+60 12.21
+61 32.06
+62 42.22
+63 36.9
+64 4.32
+65 8.43
+66 23
+67 12.65
+68 2.71
+71 6.78
+72 13.68
+73 17.64
+74 8.84
+75 5.57
+80 9.94
+81 8.84
+82 4.21
+83 8.62
+84 6.16
+85 5.83
+87 3.92
+89 2.2
+90 2.89
+91 2.09
+95 4.84
+96 34.11
+97 70.76
+98 39.72
+99 38.18
+100 10.63
+101 2.64
+106 2.45
+107 9.09
+108 3.77
+109 7.22
+111 2.23
+125 3.44
+126 8.91
+127 2.05
+128 3.52
+131 18.48
+132 57.96
+133 22.12
+134 40.71
+135 10.45
+136 7.81
+160 31.84
+161 5.2
+162 50.47
+163 5.2
+164 22.81
+166 5.57
+167 4.1
+168 2.56
+169 3.63
+195 3.59
+196 99.99
+197 9.68
+198 91.34
+199 7.07
+200 28.42
+201 2.09
+202 3.04
+
+
+Name: O-NITROPHENOL
+Synonym: O-NITROPHENOL
+DB#: JP000011
+InChIKey: IQUPABOKLQSFBK-UHFFFAOYSA-N
+MW: 139.02694302
+Formula: C6H5NO3
+PrecursorMZ: 0
+Comments: "accession=JP000011" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=139.02694" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359895" "InChI Code=InChI=1S/C6H5NO3/c8-6-4-2-1-3-5(6)7(9)10/h1-4,8H" "Observed InChI Code=InChI=1S/C6H5NO3/c8-6-4-2-1-3-5(6)7(9)10/h1-4,8H"
+Num Peaks: 36
+51 15.85
+52 8.42
+53 28.05
+54 2.29
+55 2.27
+60 1.06
+61 5.75
+62 17.29
+63 45.11
+64 41.62
+65 51.77
+66 6.47
+67 1.78
+73 1.15
+74 2.73
+75 2.38
+76 1.44
+77 2.77
+78 5.63
+79 1.16
+80 8.72
+81 30.38
+82 1.93
+91 2.46
+92 11.94
+93 13.15
+94 6.55
+106 4.18
+108 3.71
+109 30.58
+110 2.04
+122 7.2
+123 1.85
+138 13.61
+139 99.99
+140 7.57
+
+
+Name: 2,6-DIMETHYLPHENOL
+Synonym: 2,6-DIMETHYLPHENOL
+DB#: JP000012
+InChIKey: NXXYKOUNUYWIHA-UHFFFAOYSA-N
+MW: 122.07316494
+Formula: C8H10O
+PrecursorMZ: 0
+Comments: "accession=JP000012" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=122.07316" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359891" "InChI Code=InChI=1S/C8H10O/c1-6-4-3-5-7(2)8(6)9/h3-5,9H,1-2H3" "Observed InChI Code=InChI=1S/C8H10O/c1-6-4-3-5-7(2)8(6)9/h3-5,9H,1-2H3"
+Num Peaks: 38
+51 25.28
+52 9.97
+53 16.56
+54 2.27
+55 3.82
+59 1.85
+60 6.05
+61 5.01
+62 7.16
+63 10.36
+64 5.32
+65 14.27
+66 4.16
+67 2.07
+74 2.31
+75 1.95
+76 8.81
+77 46.18
+78 26.28
+79 31.17
+80 2.91
+89 2.31
+90 6.99
+91 29.44
+92 4.89
+93 7.36
+94 5.94
+102 3.98
+103 12.12
+104 9.2
+105 4.48
+106 18.66
+107 99.99
+108 7.81
+120 4.99
+121 46.7
+122 99.24
+123 8.76
+
+
+Name: 3-NITROPHENOL
+Synonym: 3-NITROPHENOL
+DB#: JP000013
+InChIKey: RTZZCYNQPHTPPL-UHFFFAOYSA-N
+MW: 139.02694302
+Formula: C6H5NO3
+PrecursorMZ: 0
+Comments: "accession=JP000013" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=139.02694" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359897" "InChI Code=InChI=1S/C6H5NO3/c8-6-3-1-2-5(4-6)7(9)10/h1-4,8H" "Observed InChI Code=InChI=1S/C6H5NO3/c8-6-3-1-2-5(4-6)7(9)10/h1-4,8H"
+Num Peaks: 44
+51 4.74
+52 2.7
+53 19.37
+54 3.29
+55 13.99
+56 5.27
+57 15.31
+60 6.26
+61 5.51
+62 9.49
+63 18.14
+64 20.78
+65 71.11
+66 7.93
+67 5.2
+68 5.62
+69 16.73
+70 5.53
+71 7.75
+73 6.34
+74 3.44
+75 2.28
+80 5.55
+81 33.32
+82 5.51
+83 7.86
+84 3.55
+85 4.32
+92 16.6
+93 55.9
+94 6.21
+95 4.67
+96 3.27
+97 6.61
+98 3.99
+99 3.97
+109 6.74
+110 2.04
+111 3.14
+123 2.83
+129 2.3
+138 10.06
+139 99.99
+140 7.86
+
+
+Name: 3,4-DIMETHYLPHENOL
+Synonym: 3,4-DIMETHYLPHENOL
+DB#: JP000014
+InChIKey: YCOXTKKNXUZSKD-UHFFFAOYSA-N
+MW: 122.07316494
+Formula: C8H10O
+PrecursorMZ: 0
+Comments: "accession=JP000014" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=122.07316" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359946" "InChI Code=InChI=1S/C8H10O/c1-6-3-4-8(9)5-7(6)2/h3-5,9H,1-2H3" "Observed InChI Code=InChI=1S/C8H10O/c1-6-3-4-8(9)5-7(6)2/h3-5,9H,1-2H3"
+Num Peaks: 26
+51 10.42
+52 4.13
+53 7.66
+55 3.4
+59 2.34
+60 3.99
+61 2.28
+62 2.14
+63 3.16
+65 5.3
+76 4.9
+77 24.8
+78 6.4
+79 10.19
+90 3.23
+91 13.4
+92 2.08
+93 3.17
+103 2.8
+106 17.01
+107 99.99
+108 7.81
+120 7.82
+121 45.51
+122 64.9
+123 5.92
+
+
+Name: 2,5-DIMETHYLPHENOL
+Synonym: 2,5-DIMETHYLPHENOL
+DB#: JP000015
+InChIKey: NKTOLZVEWDHZMU-UHFFFAOYSA-N
+MW: 122.07316494
+Formula: C8H10O
+PrecursorMZ: 0
+Comments: "accession=JP000015" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=122.07316" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359948" "InChI Code=InChI=1S/C8H10O/c1-6-3-4-7(2)8(9)5-6/h3-5,9H,1-2H3" "Observed InChI Code=InChI=1S/C8H10O/c1-6-3-4-7(2)8(9)5-6/h3-5,9H,1-2H3"
+Num Peaks: 33
+51 14.5
+52 5.42
+53 9.5
+55 3.07
+59 2.13
+60 4.85
+61 2.95
+62 2.76
+63 4.05
+64 2.68
+65 6.8
+66 2.25
+76 6.74
+77 34.37
+78 14.29
+79 21.66
+80 2.04
+90 4.62
+91 19.75
+92 3.48
+93 6.39
+94 4.21
+102 2.24
+103 7.47
+104 6.31
+105 3.24
+106 17.69
+107 99.99
+108 7.95
+120 4.36
+121 45.58
+122 92.34
+123 8
+
+
+Name: 2,3-DIMETHYLPHENOL
+Synonym: 2,3-DIMETHYLPHENOL
+DB#: JP000016
+InChIKey: QWBBPBRQALCEIZ-UHFFFAOYSA-N
+MW: 122.07316494
+Formula: C8H10O
+PrecursorMZ: 0
+Comments: "accession=JP000016" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=122.07316" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707359959" "InChI Code=InChI=1S/C8H10O/c1-6-4-3-5-8(9)7(6)2/h3-5,9H,1-2H3" "Observed InChI Code=InChI=1S/C8H10O/c1-6-4-3-5-8(9)7(6)2/h3-5,9H,1-2H3"
+Num Peaks: 31
+51 12.91
+52 4.92
+53 8.31
+55 3.21
+60 4.8
+61 2.86
+62 3.03
+63 5.14
+64 2.25
+65 7.71
+66 2.24
+76 5.19
+77 33.89
+78 14.56
+79 22.68
+80 2.23
+90 2.31
+91 19.07
+92 2.93
+93 5.67
+94 4.88
+102 2.13
+103 6.96
+104 4.11
+105 2.52
+106 14.96
+107 99.99
+108 7.75
+120 35.03
+122 66.39
+123 6.35
+
+
+Name: 3,5-DIMETHYLPHENOL
+Synonym: 3,5-DIMETHYLPHENOL
+DB#: JP000017
+InChIKey: TUAMRELNJMMDMT-UHFFFAOYSA-N
+MW: 122.07316494
+Formula: C8H10O
+PrecursorMZ: 0
+Comments: "accession=JP000017" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=122.07316" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707360016" "InChI Code=InChI=1S/C8H10O/c1-6-3-7(2)5-8(9)4-6/h3-5,9H,1-2H3" "Observed InChI Code=InChI=1S/C8H10O/c1-6-3-7(2)5-8(9)4-6/h3-5,9H,1-2H3"
+Num Peaks: 32
+51 13.34
+52 5.45
+53 10.56
+55 4.49
+59 2.57
+60 5.21
+61 2.6
+62 2.77
+63 4.2
+64 2.36
+65 6.87
+66 2.85
+67 2.58
+76 5.13
+77 34.17
+78 10.2
+79 20.67
+90 3.41
+91 17.33
+92 2.6
+93 5.4
+94 3.08
+103 3.62
+104 2.75
+105 2.6
+106 23.76
+107 99.99
+108 8.32
+120 8.13
+121 55.3
+122 95.27
+123 8.83
+
+
+Name: 2,4-DIMETHYLPHENOL
+Synonym: 2,4-DIMETHYLPHENOL
+DB#: JP000018
+InChIKey: KUFFULVDNCHOFZ-UHFFFAOYSA-N
+MW: 122.07316494
+Formula: C8H10O
+PrecursorMZ: 0
+Comments: "accession=JP000018" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=122.07316" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707360354" "InChI Code=InChI=1S/C8H10O/c1-6-3-4-8(9)7(2)5-6/h3-5,9H,1-2H3" "Observed InChI Code=InChI=1S/C8H10O/c1-6-3-4-8(9)7(2)5-6/h3-5,9H,1-2H3"
+Num Peaks: 34
+51 21.03
+52 8.71
+53 14.16
+54 2.15
+55 4.69
+59 2.27
+60 5.94
+61 4.02
+62 4.9
+63 7.66
+64 3.83
+65 10.96
+66 3.37
+76 10.21
+77 36.06
+78 15.06
+79 20.19
+80 2.66
+90 4.91
+91 24
+92 4.01
+93 5.97
+94 4.7
+102 2.32
+103 5.51
+104 4.2
+105 2.97
+106 27.2
+107 99.99
+108 11.4
+120 13.14
+121 65.1
+122 80.71
+123 7.43
+
+
+Name: 2-METHYLPHENOL
+Synonym: 2-METHYLPHENOL
+DB#: JP000019
+InChIKey: QWVGKYWNOKOFNN-UHFFFAOYSA-N
+MW: 108.057514876
+Formula: C7H8O
+PrecursorMZ: 0
+Comments: "accession=JP000019" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=108.05751" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707360361" "InChI Code=InChI=1S/C7H8O/c1-6-4-2-3-5-7(6)8/h2-5,8H,1H3" "Observed InChI Code=InChI=1S/C7H8O/c1-6-4-2-3-5-7(6)8/h2-5,8H,1H3"
+Num Peaks: 25
+51 28.49
+52 13.74
+53 22.18
+54 7.3
+55 4.23
+61 3.07
+62 6.36
+63 12.41
+64 3.51
+65 5.21
+66 2.95
+74 3.3
+76 7.54
+77 47.19
+78 17.08
+79 50.2
+80 21.26
+81 3.51
+89 16.51
+90 26.06
+91 7.94
+106 11.4
+107 93.86
+108 99.99
+109 7.79
+
+
+Name: 3-METHYLPHENOL
+Synonym: 3-METHYLPHENOL
+DB#: JP000020
+InChIKey: RLSSMJSEOOYNOY-UHFFFAOYSA-N
+MW: 108.057514876
+Formula: C7H8O
+PrecursorMZ: 0
+Comments: "accession=JP000020" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=108.05751" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707360410" "InChI Code=InChI=1S/C7H8O/c1-6-3-2-4-7(8)5-6/h2-5,8H,1H3" "Observed InChI Code=InChI=1S/C7H8O/c1-6-3-2-4-7(8)5-6/h2-5,8H,1H3"
+Num Peaks: 20
+51 10.17
+52 5.37
+53 11.55
+54 5.21
+55 2.97
+62 2.64
+63 5.48
+65 3.6
+66 2.08
+77 28.04
+78 6.84
+79 32.64
+80 12.23
+89 4.79
+90 11.68
+91 6
+106 4.68
+107 96.34
+108 99.99
+109 7.54
+
+
+Name: 4-METHYLPHENOL
+Synonym: 4-METHYLPHENOL
+DB#: JP000021
+InChIKey: IWDCLRJOBJJRNH-UHFFFAOYSA-N
+MW: 108.057514876
+Formula: C7H8O
+PrecursorMZ: 0
+Comments: "accession=JP000021" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=108.05751" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707360410" "InChI Code=InChI=1S/C7H8O/c1-6-2-4-7(8)5-3-6/h2-5,8H,1H3" "Observed InChI Code=InChI=1S/C7H8O/c1-6-2-4-7(8)5-3-6/h2-5,8H,1H3"
+Num Peaks: 19
+51 9.9
+52 5.06
+53 10.78
+54 4.57
+55 2.96
+62 2.02
+63 3.85
+65 2.09
+77 24.54
+78 5.74
+79 20.09
+80 9.41
+89 3.09
+90 7.89
+91 3.81
+106 4.73
+107 99.99
+108 82.93
+109 6.13
+
+
+Name: 2-CHLOROPHENOL
+Synonym: 2-CHLOROPHENOL
+DB#: JP000022
+InChIKey: ISPYQTSUDJAMAB-UHFFFAOYSA-N
+MW: 128.00289246
+Formula: C6H5ClO
+PrecursorMZ: 0
+Comments: "accession=JP000022" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=128.00289" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707360453" "InChI Code=InChI=1S/C6H5ClO/c7-5-3-1-2-4-6(5)8/h1-4,8H" "Observed InChI Code=InChI=1S/C6H5ClO/c7-5-3-1-2-4-6(5)8/h1-4,8H"
+Num Peaks: 26
+51 4.31
+53 10.98
+60 3.19
+61 9.55
+62 16.81
+63 53.6
+64 76.56
+65 31.54
+66 4.85
+72 3.89
+73 9.88
+74 5.43
+75 5.31
+91 3.99
+92 21.81
+93 3.28
+94 2.33
+99 7.59
+100 9.63
+101 2.9
+102 3.03
+127 39.38
+128 99.99
+129 15.53
+130 31.15
+131 2.31
+
+
+Name: 3-CHLOROPHENOL
+Synonym: 3-CHLOROPHENOL
+DB#: JP000023
+InChIKey: HORNXRXVQWOLPJ-UHFFFAOYSA-N
+MW: 128.00289246
+Formula: C6H5ClO
+PrecursorMZ: 0
+Comments: "accession=JP000023" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=128.00289" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707360460" "InChI Code=InChI=1S/C6H5ClO/c7-5-2-1-3-6(8)4-5/h1-4,8H" "Observed InChI Code=InChI=1S/C6H5ClO/c7-5-2-1-3-6(8)4-5/h1-4,8H"
+Num Peaks: 23
+51 2.73
+53 5.61
+61 4.55
+62 6.96
+63 19.06
+64 29.67
+65 43.03
+66 5.38
+73 6.41
+74 3.12
+75 3.89
+92 7.11
+93 5.18
+94 5.66
+99 7.85
+100 13.63
+101 3.14
+102 4.52
+127 16.26
+128 99.99
+129 10.75
+130 28.84
+131 2.12
+
+
+Name: 4-CHLOROPHENOL
+Synonym: 4-CHLOROPHENOL
+DB#: JP000024
+InChIKey: WXNZTHHGJRFXKQ-UHFFFAOYSA-N
+MW: 128.00289246
+Formula: C6H5ClO
+PrecursorMZ: 0
+Comments: "accession=JP000024" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=128.00289" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361451" "InChI Code=InChI=1S/C6H5ClO/c7-5-1-3-6(8)4-2-5/h1-4,8H" "Observed InChI Code=InChI=1S/C6H5ClO/c7-5-1-3-6(8)4-2-5/h1-4,8H"
+Num Peaks: 25
+51 3.61
+53 6.82
+60 2.09
+61 6.99
+62 10.51
+63 21.62
+64 27.51
+65 55.63
+66 4.33
+72 3.05
+73 9.37
+74 4.83
+75 5.09
+92 4.67
+93 4.23
+98 2.35
+99 11.16
+100 17.11
+101 4.28
+102 5.62
+127 32.15
+128 99.99
+129 14.26
+130 30.67
+131 2.18
+
+
+Name: 1,3-BENZENEDIOL
+Synonym: 1,3-BENZENEDIOL
+Synonym: RESORCINOL
+DB#: JP000025
+InChIKey: GHMLBKRAJCXXBS-UHFFFAOYSA-N
+MW: 110.036779432
+Formula: C6H6O2
+PrecursorMZ: 0
+Comments: "accession=JP000025" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=110.03678" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361502" "InChI Code=InChI=1S/C6H6O2/c7-5-2-1-3-6(8)4-5/h1-4,7-8H" "Observed InChI Code=InChI=1S/C6H6O2/c7-5-2-1-3-6(8)4-5/h1-4,7-8H"
+Num Peaks: 25
+51 6.22
+52 3.79
+53 23.62
+54 13.16
+55 17.43
+57 2.5
+61 2.36
+62 4.49
+63 9.12
+64 8.22
+65 3.64
+66 2.02
+67 2.17
+68 7.39
+69 21.54
+70 2.26
+71 3.95
+80 3.88
+81 31.06
+82 34.69
+83 3.04
+95 3.23
+109 43.04
+110 99.99
+111 8.28
+
+
+Name: 1,2-BENZENEDIOL
+Synonym: 1,2-BENZENEDIOL
+Synonym: PYROCATECHOL
+DB#: JP000026
+InChIKey: YCIMNLLNPGFGHC-UHFFFAOYSA-N
+MW: 110.036779432
+Formula: C6H6O2
+PrecursorMZ: 0
+Comments: "accession=JP000026" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=110.03678" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361540" "InChI Code=InChI=1S/C6H6O2/c7-5-3-1-2-4-6(5)8/h1-4,7-8H" "Observed InChI Code=InChI=1S/C6H6O2/c7-5-3-1-2-4-6(5)8/h1-4,7-8H"
+Num Peaks: 15
+51 3.71
+52 2.63
+53 8.72
+54 6.29
+55 8.49
+62 2.46
+63 16.73
+64 33.95
+65 2.81
+81 12.19
+82 11.66
+92 10.72
+109 19.87
+110 99.99
+111 6.94
+
+
+Name: 4-AMINO-2,3-DIMETHYL-1-PHENYL-3-PYRAZOLIN-5-ONE
+Synonym: 4-AMINO-2,3-DIMETHYL-1-PHENYL-3-PYRAZOLIN-5-ONE
+Synonym: AMPYRONE
+DB#: JP000027
+InChIKey: RLFWWDJHLFCNIJ-UHFFFAOYSA-N
+MW: 203.105862036
+Formula: C11H13N3O
+PrecursorMZ: 0
+Comments: "accession=JP000027" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=203.10586" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361587" "InChI Code=InChI=1S/C11H13N3O/c1-8-10(12)11(15)14(13(8)2)9-6-4-3-5-7-9/h3-7H,12H2,1-2H3" "Observed InChI Code=InChI=1S/C11H13N3O/c1-8-10(12)11(15)14(13(8)2)9-6-4-3-5-7-9/h3-7H,12H2,1-2H3"
+Num Peaks: 17
+51 5.6
+54 4.55
+55 6.51
+56 99.99
+57 71.95
+64 2.24
+69 6.73
+77 8.15
+81 3.39
+82 4.72
+83 37.22
+84 59.01
+85 3.73
+93 3.88
+202 4.57
+203 28.71
+204 4.16
+
+
+Name: STIGMAST-5-ENE-3BETA-OL
+Synonym: STIGMAST-5-ENE-3BETA-OL
+Synonym: BETA-SITOSTEROL
+DB#: JP000028
+InChIKey: KZJWDPNRJALLNS-VJSFXXLFSA-N
+MW: 414.38616622
+Formula: C29H50O
+PrecursorMZ: 0
+Comments: "accession=JP000028" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=414.38617" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361702" "InChI Code=InChI=1S/C29H50O/c1-7-21(19(2)3)9-8-20(4)25-12-13-26-24-11-10-22-18-23(30)14-16-28(22,5)27(24)15-17-29(25,26)6/h10,19-21,23-27,30H,7-9,11-18H2,1-6H3/t20-,21-,23+,24+,25-,26+,27+,28+,29-/m1/s1" "Observed InChI Code=InChI=1S/C29H50O/c1-7-21(19(2)3)9-8-20(4)25-12-13-26-24-11-10-22-18-23(30)14-16-28(22,5)27(24)15-17-29(25,26)6/h10,19-21,23-27,30H,7-9,11-18H2,1-6H3/t20-,21-,23+,24+,25-,26+,27+,28+,29-/m1/s1"
+Num Peaks: 118
+53 6.81
+54 7.15
+55 99.99
+56 18.48
+57 93.95
+58 5.62
+60 10.39
+65 4.42
+66 5.53
+67 48.63
+68 22.14
+69 92.67
+70 17.88
+71 47.61
+72 4.08
+73 10.39
+77 10.22
+78 5.45
+79 36.03
+80 17.03
+81 77.17
+82 26.06
+83 41.48
+84 16.95
+85 31
+91 32.96
+92 11.92
+93 41.31
+94 22.65
+95 62.18
+96 21.97
+97 36.45
+98 13.54
+99 9.62
+104 6.21
+105 40.03
+106 17.63
+107 53.49
+108 29.38
+109 36.96
+110 14.73
+111 21.97
+112 4.94
+113 4.51
+115 5.02
+117 10.05
+118 9.71
+119 27.08
+120 22.48
+121 33.9
+122 19.5
+123 25.55
+124 16.18
+125 12.77
+127 5.19
+128 7.15
+129 10.56
+130 6.04
+131 15.67
+132 8.43
+133 24.36
+134 15.84
+135 27.42
+136 16.6
+137 15.92
+138 8.51
+139 5.11
+143 10.73
+144 8.94
+145 23.42
+146 10.73
+147 22.31
+148 13.2
+149 22.48
+150 5.62
+151 8
+157 9.02
+158 9.79
+159 19.67
+160 15.92
+161 22.4
+162 8.43
+163 19.84
+164 5.79
+165 13.37
+166 6.89
+171 8.26
+173 11.49
+174 4.85
+175 7.32
+177 7.58
+178 13.28
+179 4.34
+185 8
+187 6.89
+189 5.19
+191 7.06
+199 7.41
+201 6.21
+205 4.08
+152 5.19
+213 16.26
+214 4.85
+215 21.55
+216 9.45
+217 6.98
+229 4.77
+231 10.22
+232 4.17
+233 19.93
+234 15.41
+255 10.3
+273 7.41
+303 6.04
+329 7.15
+396 2.72
+414 8.43
+415 2.69
+
+
+Name: 1,2-DICHLOROBENZENE
+Synonym: 1,2-DICHLOROBENZENE
+DB#: JP000029
+InChIKey: RFFLAFLAYFXFSW-UHFFFAOYSA-N
+MW: 145.969005488
+Formula: C6H4Cl2
+PrecursorMZ: 0
+Comments: "accession=JP000029" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=145.96901" "instrument=Unknown" "instrument type=EI-B" "ms level=MS1" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361767" "InChI Code=InChI=1S/C6H4Cl2/c7-5-3-1-2-4-6(5)8/h1-4H" "Observed InChI Code=InChI=1S/C6H4Cl2/c7-5-3-1-2-4-6(5)8/h1-4H"
+Num Peaks: 22
+51 4.3
+55 7.99
+56 3.08
+61 2.17
+73 10.08
+74 14.68
+75 26.24
+76 3.12
+84 3.47
+85 3.6
+109 2.25
+110 5.78
+111 41.93
+112 4.91
+113 13.51
+128 2.25
+145 2.78
+146 99.99
+147 7.99
+148 60.88
+149 5.86
+150 9.82
+
+
+Name: 1,3-DICHLOROBENZENE
+Synonym: 1,3-DICHLOROBENZENE
+DB#: JP000030
+InChIKey: ZPQOPVIELGIULI-UHFFFAOYSA-N
+MW: 145.969005488
+Formula: C6H4Cl2
+PrecursorMZ: 0
+Comments: "accession=JP000030" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=145.96901" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361806" "InChI Code=InChI=1S/C6H4Cl2/c7-5-2-1-3-6(8)4-5/h1-4H" "Observed InChI Code=InChI=1S/C6H4Cl2/c7-5-2-1-3-6(8)4-5/h1-4H"
+Num Peaks: 30
+51 16.59
+55 9.5
+56 3.08
+60 7.05
+61 8.62
+62 6.59
+63 5.49
+71 2.07
+72 9.4
+73 30.42
+74 50.64
+75 54.48
+76 8.6
+83 2.29
+84 8.65
+85 7.36
+86 3.88
+87 2.37
+108 2.18
+109 4.57
+110 24.33
+111 32.05
+112 12.57
+113 7.06
+145 5.43
+146 99.99
+147 13.7
+148 68.78
+149 6.09
+150 11.37
+
+
+Name: 1,4-DICHLOROBENZENE
+Synonym: 1,4-DICHLOROBENZENE
+DB#: JP000031
+InChIKey: OCJBOOLMMGQPQU-UHFFFAOYSA-N
+MW: 145.969005488
+Formula: C6H4Cl2
+PrecursorMZ: 0
+Comments: "accession=JP000031" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=145.96901" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361857" "InChI Code=InChI=1S/C6H4Cl2/c7-5-1-2-6(8)4-3-5/h1-4H" "Observed InChI Code=InChI=1S/C6H4Cl2/c7-5-1-2-6(8)4-3-5/h1-4H"
+Num Peaks: 25
+51 8.54
+55 7.69
+56 2.43
+60 2.68
+61 3.84
+62 2.32
+72 4.24
+73 17.95
+74 29.22
+75 30.02
+76 4.14
+84 4.3
+85 4.51
+86 2.17
+109 2.6
+110 11.97
+111 38.91
+112 5.85
+113 11.91
+145 15.07
+146 99.99
+147 13.98
+148 57.05
+149 5.35
+150 9.16
+
+
+Name: CYCLOHEXANONE
+Synonym: CYCLOHEXANONE
+DB#: JP000032
+InChIKey: JHIVVAPYMSGYDF-UHFFFAOYSA-N
+MW: 98.07316494
+Formula: C6H10O
+PrecursorMZ: 0
+Comments: "accession=JP000032" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=98.07316" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361896" "InChI Code=InChI=1S/C6H10O/c7-6-4-2-1-3-5-6/h1-5H2" "Observed InChI Code=InChI=1S/C6H10O/c7-6-4-2-1-3-5-6/h1-5H2"
+Num Peaks: 29
+53 5.72
+54 9.42
+55 99.99
+56 16.59
+57 11.33
+58 2.84
+60 12.62
+67 7.39
+68 6.46
+69 33.6
+70 36.18
+71 8.92
+73 8.73
+74 2.38
+75 2.16
+77 2.38
+79 7.09
+80 8.65
+81 17.99
+82 6.1
+83 22.07
+84 3.99
+85 2.27
+87 2.62
+96 3.8
+97 31.88
+98 99.75
+99 28.26
+100 3.39
+
+
+Name: CYCLOHEXANOL
+Synonym: CYCLOHEXANOL
+DB#: JP000033
+InChIKey: HPXRVTGHNJAIIH-UHFFFAOYSA-N
+MW: 100.088815004
+Formula: C6H12O
+PrecursorMZ: 0
+Comments: "accession=JP000033" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=100.08882" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361939" "InChI Code=InChI=1S/C6H12O/c7-6-4-2-1-3-5-6/h6-7H,1-5H2" "Observed InChI Code=InChI=1S/C6H12O/c7-6-4-2-1-3-5-6/h6-7H,1-5H2"
+Num Peaks: 19
+51 2.87
+53 6.48
+54 13.43
+55 14.86
+56 25.56
+57 99.99
+58 8.86
+66 7.51
+67 26.77
+68 2.24
+69 2.7
+70 4.12
+71 13.56
+72 6.79
+81 21
+82 37.34
+83 4.48
+99 2.11
+100 2.07
+
+
+Name: 2-METHYLCYCLOHEXANONE
+Synonym: 2-METHYLCYCLOHEXANONE
+DB#: JP000034
+InChIKey: LFSAPCRASZRSKS-UHFFFAOYSA-N
+MW: 112.088815004
+Formula: C7H12O
+PrecursorMZ: 0
+Comments: "accession=JP000034" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=112.08882" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707361993" "InChI Code=InChI=1S/C7H12O/c1-6-4-2-3-5-7(6)8/h6H,2-5H2,1H3" "Observed InChI Code=InChI=1S/C7H12O/c1-6-4-2-3-5-7(6)8/h6H,2-5H2,1H3"
+Num Peaks: 31
+51 2.77
+53 7.58
+54 13.11
+55 68.06
+56 48.78
+57 44.49
+58 12.94
+66 2.78
+67 27.75
+68 99.99
+69 46.41
+70 17.37
+71 23.47
+72 4.1
+79 5.83
+80 2.7
+81 29.96
+82 11.97
+83 15.41
+84 24.86
+85 5.68
+86 3.4
+94 3.97
+95 4.6
+96 23.02
+97 10.97
+98 3.88
+110 3.71
+111 6.21
+112 31.33
+113 4.05
+
+
+Name: 2-METHYLCYCLOHEXANOL
+Synonym: 2-METHYLCYCLOHEXANOL
+DB#: JP000035
+InChIKey: NDVWOBYBJYUSMF-UHFFFAOYSA-N
+MW: 114.104465068
+Formula: C7H14O
+PrecursorMZ: 0
+Comments: "accession=JP000035" "author=KOGA M, UNIV. OF OCCUPATIONAL AND ENVIRONMENTAL HEALTH" "license=CC BY-NC-SA" "exact mass=114.10447" "instrument=VARIAN MAT-44" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707362095" "InChI Code=InChI=1S/C7H14O/c1-6-4-2-3-5-7(6)8/h6-8H,2-5H2,1H3" "Observed InChI Code=InChI=1S/C7H14O/c1-6-4-2-3-5-7(6)8/h6-8H,2-5H2,1H3"
+Num Peaks: 42
+51 3.99
+53 10.5
+54 22.05
+55 56.72
+56 20.37
+57 99.99
+58 20.16
+59 2.31
+60 3.78
+61 2.52
+65 4.41
+66 6.3
+67 43.06
+68 63.65
+69 15.33
+70 19.95
+71 44.32
+72 9.87
+73 3.57
+74 2.73
+75 3.15
+77 3.99
+79 9.87
+80 6.3
+81 88.02
+82 19.74
+83 7.77
+84 5.67
+85 9.03
+86 8.61
+88 2.1
+91 3.15
+95 10.5
+96 65.54
+97 11.76
+98 7.56
+99 5.46
+110 2.1
+111 7.56
+112 5.25
+113 3.78
+114 9.03
+
+
+Name: METHYL BENZOATE
+Synonym: METHYL BENZOATE
+Synonym: BENZOIC ACID METHYL ESTER
+DB#: JP000036
+InChIKey: QPJVMBTYPHYUOC-UHFFFAOYSA-N
+MW: 136.052429496
+Formula: C8H8O2
+PrecursorMZ: 0
+Comments: "accession=JP000036" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=136.05243" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707362151" "InChI Code=InChI=1S/C8H8O2/c1-10-8(9)7-5-3-2-4-6-7/h2-6H,1H3" "Observed InChI Code=InChI=1S/C8H8O2/c1-10-8(9)7-5-3-2-4-6-7/h2-6H,1H3"
+Num Peaks: 10
+50 2.36
+51 7.09
+76 1.7
+77 48.18
+78 3.16
+105 99.99
+106 8.03
+135 1.94
+136 31.22
+137 2.69
+
+
+Name: ETHYL BENZOATE
+Synonym: ETHYL BENZOATE
+Synonym: BENZOIC ACID ETHYL ESTER
+DB#: JP000037
+InChIKey: MTZQAGJQAFMTAQ-UHFFFAOYSA-N
+MW: 150.06807956
+Formula: C9H10O2
+PrecursorMZ: 0
+Comments: "accession=JP000037" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=150.06808" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707362174" "InChI Code=InChI=1S/C9H10O2/c1-2-11-9(10)8-6-4-3-5-7-8/h3-7H,2H2,1H3" "Observed InChI Code=InChI=1S/C9H10O2/c1-2-11-9(10)8-6-4-3-5-7-8/h3-7H,2H2,1H3"
+Num Peaks: 12
+51 3.59
+76 1.05
+77 31.97
+78 2.54
+105 99.99
+106 9.01
+122 33.62
+123 2.59
+135 0.9
+149 2.24
+150 16.38
+151 1.54
+
+
+Name: PROPYL BENZOATE
+Synonym: PROPYL BENZOATE
+Synonym: BENZOIC ACID PROPYL ESTER
+DB#: JP000038
+InChIKey: UDEWPOVQBGFNGE-UHFFFAOYSA-N
+MW: 164.083729624
+Formula: C10H12O2
+PrecursorMZ: 0
+Comments: "accession=JP000038" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=164.08373" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365523" "InChI Code=InChI=1S/C10H12O2/c1-2-8-12-10(11)9-6-4-3-5-7-9/h3-7H,2,8H2,1H3" "Observed InChI Code=InChI=1S/C10H12O2/c1-2-8-12-10(11)9-6-4-3-5-7-9/h3-7H,2,8H2,1H3"
+Num Peaks: 11
+51 2.42
+77 27
+78 1.71
+79 1.36
+105 99.99
+106 7.67
+122 27.83
+123 47.52
+124 3.07
+135 0.83
+164 0.35
+
+
+Name: ISOPROPYL BENZOATE
+Synonym: ISOPROPYL BENZOATE
+Synonym: BENZOIC ACID ISOPROPYL ESTER
+DB#: JP000039
+InChIKey: FEXQDZTYJVXMOS-UHFFFAOYSA-N
+MW: 164.083729624
+Formula: C10H12O2
+PrecursorMZ: 0
+Comments: "accession=JP000039" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=164.08373" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365571" "InChI Code=InChI=1S/C10H12O2/c1-8(2)12-10(11)9-6-4-3-5-7-9/h3-8H,1-2H3" "Observed InChI Code=InChI=1S/C10H12O2/c1-8(2)12-10(11)9-6-4-3-5-7-9/h3-8H,1-2H3"
+Num Peaks: 22
+27 8.93
+39 6.55
+41 12.27
+42 3.34
+43 22.57
+50 6.91
+51 22.75
+52 1.37
+59 23.59
+76 2.5
+77 45.86
+78 5.78
+79 4.65
+105 99.99
+106 10.24
+122 16.02
+123 25.61
+124 1.79
+146 1.73
+149 1.67
+164 5.78
+165 0.6
+
+
+Name: BUTYL BENZOATE
+Synonym: BUTYL BENZOATE
+Synonym: BENZOIC ACID BUTYL ESTER
+DB#: JP000040
+InChIKey: KYZHGEFMXZOSJN-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000040" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365615" "InChI Code=InChI=1S/C11H14O2/c1-9(2)8-13-11(12)10-6-4-3-5-7-10/h3-7,9H,8H2,1-2H3" "Observed InChI Code=InChI=1S/C11H14O2/c1-9(2)8-13-11(12)10-6-4-3-5-7-10/h3-7,9H,8H2,1-2H3"
+Num Peaks: 18
+39 3.74
+41 12.02
+43 5.71
+50 2.73
+51 11.21
+55 7.07
+56 21.36
+57 7.88
+76 2.52
+77 47.47
+78 4.04
+79 10.3
+105 99.99
+106 8.08
+121 3.03
+122 12.12
+123 45.96
+124 3.54
+
+
+Name: ISOBUTYL BENZOATE
+Synonym: ISOBUTYL BENZOATE
+Synonym: BENZOIC ACID ISOBUTYL ESTER
+DB#: JP000041
+InChIKey: KYZHGEFMXZOSJN-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000041" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365663" "InChI Code=InChI=1S/C11H14O2/c1-9(2)8-13-11(12)10-6-4-3-5-7-10/h3-7,9H,8H2,1-2H3" "Observed InChI Code=InChI=1S/C11H14O2/c1-9(2)8-13-11(12)10-6-4-3-5-7-10/h3-7,9H,8H2,1-2H3"
+Num Peaks: 19
+27 3.42
+29 5.78
+39 2.77
+41 7.96
+43 1.18
+50 3.42
+51 13.98
+55 1.89
+56 32.15
+57 2.6
+76 1.77
+77 45.43
+78 3.42
+79 4.9
+105 99.99
+106 7.61
+122 1.77
+123 34.51
+124 2.48
+
+
+Name: TERTBUTYL BENZOATE
+Synonym: TERTBUTYL BENZOATE
+Synonym: BENZOIC ACID TERTBUTYL ESTER
+DB#: JP000042
+InChIKey: LYDRKKWPKKEMNZ-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000042" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365713" "InChI Code=InChI=1S/C11H14O2/c1-11(2,3)13-10(12)9-7-5-4-6-8-9/h4-8H,1-3H3" "Observed InChI Code=InChI=1S/C11H14O2/c1-11(2,3)13-10(12)9-7-5-4-6-8-9/h4-8H,1-3H3"
+Num Peaks: 20
+27 3.89
+29 9.89
+39 7.14
+41 19.34
+43 2.95
+50 5.36
+51 17.08
+55 1.62
+56 28.15
+57 66.44
+58 2.56
+76 2.36
+77 40.11
+78 5.41
+79 5.9
+105 99.99
+106 7.28
+122 6.99
+123 59.1
+124 4.18
+
+
+Name: ORTHO TOLUIC ACID
+Synonym: ORTHO TOLUIC ACID
+DB#: JP000043
+InChIKey: ZWLPBLYKEWSWPD-UHFFFAOYSA-N
+MW: 136.052429496
+Formula: C8H8O2
+PrecursorMZ: 0
+Comments: "accession=JP000043" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=136.05243" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365722" "InChI Code=InChI=1S/C8H8O2/c1-6-4-2-3-5-7(6)8(9)10/h2-5H,1H3,(H,9,10)" "Observed InChI Code=InChI=1S/C8H8O2/c1-6-4-2-3-5-7(6)8(9)10/h2-5H,1H3,(H,9,10)"
+Num Peaks: 38
+27 4.57
+29 1.36
+37 2.17
+38 5.43
+39 29.13
+40 2.61
+41 4.89
+43 3.59
+44 2.72
+45 9.4
+50 8.15
+51 14.46
+52 2.88
+53 3.75
+59 8.15
+61 2.66
+62 7.06
+63 18.64
+64 4.89
+65 37.07
+66 2.5
+77 11.68
+79 4.08
+89 17.93
+90 75.71
+91 99.99
+92 8.8
+93 1.58
+105 2.88
+107 1.09
+118 84.89
+119 24.73
+120 2.06
+121 5.43
+135 2.5
+136 56.3
+137 4.89
+138 3.42
+
+
+Name: META TOLUIC ACID
+Synonym: META TOLUIC ACID
+DB#: JP000044
+InChIKey: GPSDUZXPYCFOSQ-UHFFFAOYSA-N
+MW: 136.052429496
+Formula: C8H8O2
+PrecursorMZ: 0
+Comments: "accession=JP000044" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=136.05243" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365761" "InChI Code=InChI=1S/C8H8O2/c1-6-3-2-4-7(5-6)8(9)10/h2-5H,1H3,(H,9,10)" "Observed InChI Code=InChI=1S/C8H8O2/c1-6-3-2-4-7(5-6)8(9)10/h2-5H,1H3,(H,9,10)"
+Num Peaks: 23
+27 1.99
+38 1.81
+39 14.04
+41 4.16
+43 2.72
+45 1.81
+50 3.62
+51 5.43
+62 2.99
+63 8.61
+65 20.38
+77 4.53
+79 1.81
+89 6.34
+90 5.89
+91 99.99
+92 16.76
+118 1.02
+119 27.9
+120 1.81
+135 2.08
+136 43.57
+137 3.44
+
+
+Name: PARA TOLUIC ACID
+Synonym: PARA TOLUIC ACID
+DB#: JP000045
+InChIKey: LPNBBFKOUUSUDB-UHFFFAOYSA-N
+MW: 136.052429496
+Formula: C8H8O2
+PrecursorMZ: 0
+Comments: "accession=JP000045" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=136.05243" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365776" "InChI Code=InChI=1S/C8H8O2/c1-6-2-4-7(5-3-6)8(9)10/h2-5H,1H3,(H,9,10)" "Observed InChI Code=InChI=1S/C8H8O2/c1-6-2-4-7(5-3-6)8(9)10/h2-5H,1H3,(H,9,10)"
+Num Peaks: 22
+27 2.07
+38 1.94
+39 13.83
+41 4.63
+43 2.9
+44 1.11
+45 2.07
+50 4.29
+51 6.09
+62 3.6
+63 9.75
+64 2.01
+65 24.14
+77 4.29
+89 6.78
+90 4.77
+91 99.99
+92 15.77
+119 44.4
+120 3.39
+136 50
+137 4.01
+
+
+Name: METHYL ORTHO TOLUATE
+Synonym: METHYL ORTHO TOLUATE
+Synonym: ORTHO TOLUIC ACID METHYL ESTER
+DB#: JP000046
+InChIKey: WVWZECQNFWFVFW-UHFFFAOYSA-N
+MW: 150.06807956
+Formula: C9H10O2
+PrecursorMZ: 0
+Comments: "accession=JP000046" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=150.06808" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365806" "InChI Code=InChI=1S/C9H10O2/c1-7-5-3-4-6-8(7)9(10)11-2/h3-6H,1-2H3" "Observed InChI Code=InChI=1S/C9H10O2/c1-7-5-3-4-6-8(7)9(10)11-2/h3-6H,1-2H3"
+Num Peaks: 32
+15 5.96
+27 2.17
+29 2.42
+38 3.53
+39 23.73
+40 1.62
+41 4.29
+50 6.26
+51 11.56
+52 2.42
+53 1.62
+59 1.62
+61 1.56
+62 6.51
+63 19.28
+64 5.55
+65 41.54
+66 2.02
+77 12.01
+79 8.48
+89 17.67
+90 31.3
+91 99.99
+92 7.98
+105 3.94
+118 63.5
+119 98.33
+120 8.38
+135 7.02
+149 1.46
+150 37.41
+151 3.89
+
+
+Name: METHYL PARA TOLUATE
+Synonym: METHYL PARA TOLUATE
+Synonym: PARA TOLUIC ACID METHYL ESTER
+DB#: JP000047
+InChIKey: QSSJZLPUHJDYKF-UHFFFAOYSA-N
+MW: 150.06807956
+Formula: C9H10O2
+PrecursorMZ: 0
+Comments: "accession=JP000047" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=150.06808" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707365840" "InChI Code=InChI=1S/C9H10O2/c1-7-3-5-8(6-4-7)9(10)11-2/h3-6H,1-2H3" "Observed InChI Code=InChI=1S/C9H10O2/c1-7-3-5-8(6-4-7)9(10)11-2/h3-6H,1-2H3"
+Num Peaks: 16
+15 1.6
+39 7.86
+41 1.33
+50 1.83
+51 2.93
+62 1.46
+63 5.85
+65 18.02
+89 4.39
+90 2.24
+91 35.53
+92 1.87
+119 99.99
+120 8.18
+150 18.2
+151 1.19
+
+
+Name: ETHYL ORTHO TOLUATE
+Synonym: ETHYL ORTHO TOLUATE
+Synonym: ORTHO TOLUIC ACID ETHYL ESTER
+DB#: JP000048
+InChIKey: SOUAXOGPALPTTC-UHFFFAOYSA-N
+MW: 164.083729624
+Formula: C10H12O2
+PrecursorMZ: 0
+Comments: "accession=JP000048" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=164.08373" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368423" "InChI Code=InChI=1S/C10H12O2/c1-3-12-10(11)9-7-5-4-6-8(9)2/h4-7H,3H2,1-2H3" "Observed InChI Code=InChI=1S/C10H12O2/c1-3-12-10(11)9-7-5-4-6-8(9)2/h4-7H,3H2,1-2H3"
+Num Peaks: 26
+27 4.21
+29 4.11
+39 11.58
+41 3.16
+50 2
+51 5.26
+62 2
+63 8.95
+64 2.11
+65 33.68
+66 1.05
+77 8.42
+79 10.42
+89 11.26
+90 30
+91 84.53
+92 7.05
+105 2.63
+118 77.68
+119 99.99
+120 10.84
+135 18.95
+136 8.32
+149 4.74
+164 26.32
+165 2.63
+
+
+Name: ETHYL PARA TOLUATE
+Synonym: ETHYL PARA TOLUATE
+Synonym: PARA TOLUIC ACID ETHYL ESTER
+DB#: JP000049
+InChIKey: NWPWRAWAUYIELB-UHFFFAOYSA-N
+MW: 164.083729624
+Formula: C10H12O2
+PrecursorMZ: 0
+Comments: "accession=JP000049" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=164.08373" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368473" "InChI Code=InChI=1S/C10H12O2/c1-3-12-10(11)9-6-4-8(2)5-7-9/h4-7H,3H2,1-2H3" "Observed InChI Code=InChI=1S/C10H12O2/c1-3-12-10(11)9-6-4-8(2)5-7-9/h4-7H,3H2,1-2H3"
+Num Peaks: 32
+15 8.61
+26 7.28
+27 42.91
+29 35.76
+38 7.41
+39 61.59
+40 4.64
+41 14.04
+43 3.44
+45 3.18
+50 13.91
+51 20.66
+52 5.29
+53 3.25
+61 1.92
+62 9.34
+63 29.93
+64 8.34
+65 80.26
+66 4.11
+77 5.43
+89 13.91
+90 7.95
+91 93.44
+92 10.79
+119 99.99
+120 10.13
+136 15.89
+137 1.19
+149 1.52
+164 7.42
+165 0.93
+
+
+Name: ISOPROPYL ORTHO TOLUATE
+Synonym: ISOPROPYL ORTHO TOLUATE
+Synonym: ORTHO TOLUIC ACID ISOPROPYL ESTER
+DB#: JP000050
+InChIKey: GKOTWEXRHKVLLK-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000050" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368523" "InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3" "Observed InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3"
+Num Peaks: 22
+27 4.53
+39 11.06
+41 9.83
+43 11.64
+51 1.94
+59 1.03
+63 3.75
+65 15.52
+77 3.1
+79 1.42
+89 8.15
+90 24.97
+91 60.09
+92 5.82
+118 99.99
+119 80.34
+120 7.12
+135 2.52
+136 52.72
+137 4.59
+178 14.42
+179 1.88
+
+
+Name: ISOPROPYL PARA TOLUATE
+Synonym: ISOPROPYL PARA TOLUATE
+Synonym: PARA TOLUIC ACID ISOPROPYL ESTER
+DB#: JP000051
+InChIKey: ONWRVKPIVJMSHO-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000051" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368569" "InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-6-4-9(3)5-7-10/h4-8H,1-3H3" "Observed InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-6-4-9(3)5-7-10/h4-8H,1-3H3"
+Num Peaks: 21
+27 2.66
+39 5
+41 6.46
+43 9.77
+51 1.21
+59 18.56
+63 2.1
+65 12.27
+89 2.66
+90 1.78
+91 43.18
+92 7.18
+93 1.21
+119 99.99
+120 14.37
+121 1.05
+136 42.62
+137 7.75
+163 2.5
+178 9.77
+179 0.89
+
+
+Name: BUTYL ORTHO TOLUATE
+Synonym: BUTYL ORTHO TOLUATE
+Synonym: ORTHO TOLUIC ACID BUTYL ESTER
+DB#: JP000052
+InChIKey: GALQLODNTKQGFE-UHFFFAOYSA-N
+MW: 192.115029752
+Formula: C12H16O2
+PrecursorMZ: 0
+Comments: "accession=JP000052" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=192.11503" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368620" "InChI Code=InChI=1S/C12H16O2/c1-3-4-9-14-12(13)11-8-6-5-7-10(11)2/h5-8H,3-4,9H2,1-2H3" "Observed InChI Code=InChI=1S/C12H16O2/c1-3-4-9-14-12(13)11-8-6-5-7-10(11)2/h5-8H,3-4,9H2,1-2H3"
+Num Peaks: 26
+27 8.4
+29 25.21
+39 14.48
+41 26.97
+51 3.69
+55 2.9
+56 7.61
+57 16.3
+63 4.77
+64 1.14
+65 27.6
+77 3.07
+79 1.19
+89 5.91
+90 15.11
+91 67.75
+92 6.25
+93 2.1
+118 99.99
+119 92.05
+120 7.61
+135 3.52
+136 64.79
+137 16.07
+192 10.96
+193 1.31
+
+
+Name: BUTYL META TOLUATE
+Synonym: BUTYL META TOLUATE
+Synonym: META TOLUIC ACID BUTYL ESTER
+DB#: JP000053
+InChIKey: KECCQYFSODJESB-UHFFFAOYSA-N
+MW: 192.115029752
+Formula: C12H16O2
+PrecursorMZ: 0
+Comments: "accession=JP000053" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=192.11503" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368674" "InChI Code=InChI=1S/C12H16O2/c1-3-4-8-14-12(13)11-7-5-6-10(2)9-11/h5-7,9H,3-4,8H2,1-2H3" "Observed InChI Code=InChI=1S/C12H16O2/c1-3-4-8-14-12(13)11-7-5-6-10(2)9-11/h5-7,9H,3-4,8H2,1-2H3"
+Num Peaks: 25
+27 2.33
+29 5.74
+39 4.98
+41 7.36
+51 1.25
+55 2.27
+56 9.2
+57 1.08
+63 2.27
+65 14.67
+77 1.08
+89 3.09
+90 2.54
+91 54.09
+92 9.8
+93 6.39
+118 1.19
+119 99.99
+120 9.53
+135 1.08
+136 78.02
+137 35.08
+138 2.71
+192 3.79
+193 0.43
+
+
+Name: BUTYL PARA TOLUATE
+Synonym: BUTYL PARA TOLUATE
+Synonym: PARA TOLUIC ACID BUTYL ESTER
+DB#: JP000054
+InChIKey: UYGHRCCJWWYXMY-UHFFFAOYSA-N
+MW: 192.115029752
+Formula: C12H16O2
+PrecursorMZ: 0
+Comments: "accession=JP000054" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=192.11503" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368674" "InChI Code=InChI=1S/C12H16O2/c1-3-4-9-14-12(13)11-7-5-10(2)6-8-11/h5-8H,3-4,9H2,1-2H3" "Observed InChI Code=InChI=1S/C12H16O2/c1-3-4-9-14-12(13)11-7-5-10(2)6-8-11/h5-8H,3-4,9H2,1-2H3"
+Num Peaks: 21
+27 7.02
+29 11.89
+39 11.89
+41 13.2
+50 1.19
+51 2.5
+55 2.26
+56 11.89
+63 4.52
+65 22.35
+89 3.57
+90 2.5
+91 50.18
+92 5.95
+93 3.33
+119 99.99
+120 8.44
+136 57.67
+137 29.37
+138 2.02
+192 1.55
+
+
+Name: ISOBUTYL ORTHO TOLUATE
+Synonym: ISOBUTYL ORTHO TOLUATE
+Synonym: ORTHO TOLUIC ACID ISOBUTYL ESTER
+DB#: JP000055
+InChIKey: WBNOXPDHXZDLCY-UHFFFAOYSA-N
+MW: 192.115029752
+Formula: C12H16O2
+PrecursorMZ: 0
+Comments: "accession=JP000055" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=192.11503" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368727" "InChI Code=InChI=1S/C12H16O2/c1-9(2)8-14-12(13)11-7-5-4-6-10(11)3/h4-7,9H,8H2,1-3H3" "Observed InChI Code=InChI=1S/C12H16O2/c1-9(2)8-14-12(13)11-7-5-4-6-10(11)3/h4-7,9H,8H2,1-3H3"
+Num Peaks: 26
+27 6.66
+29 15.74
+39 16.46
+41 25.54
+43 2.54
+50 1.21
+51 3.63
+55 1.21
+56 7.38
+57 28.27
+63 5.69
+65 28.39
+77 2.42
+89 6.96
+90 12.11
+91 63.32
+92 5.33
+93 2
+118 63.14
+119 99.99
+120 8.17
+136 42.86
+137 17.68
+138 1
+192 4.78
+193 0.48
+
+
+Name: ISOBUTYL PARA TOLUATE
+Synonym: ISOBUTYL PARA TOLUATE
+Synonym: PARA TOLUIC ACID ISOBUTYL ESTER
+DB#: JP000056
+InChIKey: IELVQABKIBOBRG-UHFFFAOYSA-N
+MW: 192.115029752
+Formula: C12H16O2
+PrecursorMZ: 0
+Comments: "accession=JP000056" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=192.11503" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368723" "InChI Code=InChI=1S/C12H16O2/c1-9(2)8-14-12(13)11-6-4-10(3)5-7-11/h4-7,9H,8H2,1-3H3" "Observed InChI Code=InChI=1S/C12H16O2/c1-9(2)8-14-12(13)11-6-4-10(3)5-7-11/h4-7,9H,8H2,1-3H3"
+Num Peaks: 21
+27 1.27
+29 2.77
+39 4.87
+41 5.75
+43 1.11
+51 1.11
+55 0.72
+56 7.63
+57 1.11
+63 2.38
+65 13.83
+89 3.21
+90 1.83
+91 38.16
+92 5.64
+93 5.03
+119 99.99
+120 8.74
+136 19.08
+137 38.11
+138 2.77
+
+
+Name: AMYL ORTHO TOLUATE
+Synonym: AMYL ORTHO TOLUATE
+Synonym: ORTHO TOLUIC ACID AMYL ESTER
+DB#: JP000057
+InChIKey: YMAHRBGBVUOIMQ-UHFFFAOYSA-N
+MW: 206.130679816
+Formula: C13H18O2
+PrecursorMZ: 0
+Comments: "accession=JP000057" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=206.13068" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368771" "InChI Code=InChI=1S/C13H18O2/c1-3-4-7-10-15-13(14)12-9-6-5-8-11(12)2/h5-6,8-9H,3-4,7,10H2,1-2H3" "Observed InChI Code=InChI=1S/C13H18O2/c1-3-4-7-10-15-13(14)12-9-6-5-8-11(12)2/h5-6,8-9H,3-4,7,10H2,1-2H3"
+Num Peaks: 27
+27 6.19
+29 9.49
+39 8.14
+41 12.54
+42 6.69
+43 38.9
+55 6.78
+63 2.88
+65 17.63
+70 6.78
+71 4.49
+77 2.46
+79 1.1
+89 4.83
+90 11.02
+91 55.76
+92 5.08
+93 3.14
+118 99.99
+119 90.51
+120 8.05
+135 3.98
+136 86.36
+137 32.37
+138 2.54
+206 11.86
+207 1.86
+
+
+Name: AMYL PARA TOLUATE
+Synonym: AMYL PARA TOLUATE
+Synonym: PARA TOLUIC ACID AMYL ESTER
+DB#: JP000058
+InChIKey: FXPYVDXLZGLQKU-UHFFFAOYSA-N
+MW: 206.130679816
+Formula: C13H18O2
+PrecursorMZ: 0
+Comments: "accession=JP000058" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=206.13068" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368782" "InChI Code=InChI=1S/C13H18O2/c1-3-4-5-10-15-13(14)12-8-6-11(2)7-9-12/h6-9H,3-5,10H2,1-2H3" "Observed InChI Code=InChI=1S/C13H18O2/c1-3-4-5-10-15-13(14)12-8-6-11(2)7-9-12/h6-9H,3-5,10H2,1-2H3"
+Num Peaks: 21
+27 4.33
+29 4.98
+39 5.78
+41 7.7
+42 6.82
+43 3.45
+55 4.49
+63 1.04
+65 11.15
+70 4.41
+89 2.73
+90 1.93
+91 43.9
+92 8.91
+93 7.46
+119 99.99
+120 8.67
+136 68.54
+137 58.27
+138 4.49
+206 0.72
+
+
+Name: ISOAMYL ORTHO TOLUATE
+Synonym: ISOAMYL ORTHO TOLUATE
+Synonym: ORTHO TOLUIC ACID ISOAMYL ESTER
+DB#: JP000059
+InChIKey: ZMSLAZFPMYEGIT-UHFFFAOYSA-N
+MW: 206.130679816
+Formula: C13H18O2
+PrecursorMZ: 0
+Comments: "accession=JP000059" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=206.13068" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368818" "InChI Code=InChI=1S/C13H18O2/c1-10(2)8-9-15-13(14)12-7-5-4-6-11(12)3/h4-7,10H,8-9H2,1-3H3" "Observed InChI Code=InChI=1S/C13H18O2/c1-10(2)8-9-15-13(14)12-7-5-4-6-11(12)3/h4-7,10H,8-9H2,1-3H3"
+Num Peaks: 34
+27 8.91
+29 11.88
+39 15.38
+40 1.32
+41 21.12
+42 8.32
+43 87.13
+44 2.64
+50 1.25
+51 3.56
+55 23.23
+63 5.35
+64 1.72
+65 31.02
+66 1.52
+69 2.11
+70 70.56
+71 35.78
+72 1.52
+77 4.09
+79 1.98
+89 7.13
+90 12.01
+91 63.37
+92 5.48
+93 4.62
+118 77.23
+119 99.99
+120 8.58
+135 2.77
+136 57.1
+137 31.68
+138 2.31
+206 2.64
+
+
+Name: ISOAMYL PARA TOLUATE
+Synonym: ISOAMYL PARA TOLUATE
+Synonym: PARA TOLUIC ACID ISOAMYL ESTER
+DB#: JP000060
+InChIKey: WDNOGGRIGNCXKH-UHFFFAOYSA-N
+MW: 206.130679816
+Formula: C13H18O2
+PrecursorMZ: 0
+Comments: "accession=JP000060" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=206.13068" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368899" "InChI Code=InChI=1S/C13H18O2/c1-10(2)8-9-15-13(14)12-6-4-11(3)5-7-12/h4-7,10H,8-9H2,1-3H3" "Observed InChI Code=InChI=1S/C13H18O2/c1-10(2)8-9-15-13(14)12-6-4-11(3)5-7-12/h4-7,10H,8-9H2,1-3H3"
+Num Peaks: 22
+27 2.55
+29 3.16
+39 5.23
+41 7.9
+42 7.96
+43 7.23
+55 18.91
+63 1.64
+65 14.1
+69 1.16
+70 70.15
+71 3.53
+89 3.16
+90 1.95
+91 42.55
+92 5.47
+93 5.53
+119 99.99
+120 8.88
+136 31.61
+137 39.21
+138 3.4
+
+
+Name: ISOPROPYL ORTHO TOLUATE (ALPHA,ALPHA,ALPHA-D3)
+Synonym: ISOPROPYL ORTHO TOLUATE (ALPHA,ALPHA,ALPHA-D3)
+DB#: JP000061
+InChIKey: GKOTWEXRHKVLLK-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000061" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368873" "InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3/i1D3" "Observed InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3/i1D3"
+Num Peaks: 28
+27 7.12
+39 5.63
+40 4.89
+41 16.28
+42 2.21
+43 23.82
+44 1.08
+59 4.49
+64 1.32
+65 1.5
+66 4.91
+67 15.08
+68 7.66
+91 10.89
+92 17.41
+93 12.45
+94 63.14
+95 5.98
+119 44.34
+120 75.58
+121 13.82
+122 99.99
+123 8.92
+138 6.28
+139 76.72
+140 5.69
+181 13.7
+182 0.72
+
+
+Name: ISOPROPYL ORTHO TOLUATE (2-D1)
+Synonym: ISOPROPYL ORTHO TOLUATE (2-D1)
+DB#: JP000062
+InChIKey: GKOTWEXRHKVLLK-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000062" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368887" "InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3/i8D" "Observed InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3/i8D"
+Num Peaks: 28
+27 4.01
+29 1.67
+39 11.75
+40 2.34
+41 8.81
+42 9.01
+43 6.14
+44 17.16
+51 3.67
+55 3.07
+57 4.14
+60 2.2
+63 5.87
+65 24.83
+77 4.01
+79 2.27
+89 7.74
+90 26.03
+91 57.61
+92 6.68
+118 99.99
+119 77.44
+120 7.34
+135 3.2
+136 57.34
+137 7.34
+179 9.48
+180 1.27
+
+
+Name: ISOPROPYL ORTHO TOLUATE (1,1,1,3,3,3-D6)
+Synonym: ISOPROPYL ORTHO TOLUATE (1,1,1,3,3,3-D6)
+DB#: JP000063
+InChIKey: GKOTWEXRHKVLLK-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000063" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368933" "InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3/i1D3,2D3" "Observed InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3/i1D3,2D3"
+Num Peaks: 30
+28 1.35
+29 2.83
+30 2.36
+39 7.74
+41 3.37
+43 1.08
+45 5.93
+46 4.04
+49 14.81
+51 3.03
+63 5.39
+65 24.24
+66 1.35
+77 2.02
+79 1.35
+89 5.93
+90 13.13
+91 48.89
+92 11.45
+93 1.89
+118 42.42
+119 99.99
+120 12.12
+135 3.37
+136 3.97
+137 48.35
+138 4.04
+183 0.61
+184 8.08
+185 0.67
+
+
+Name: ISOPROPYL ORTHO TOLUATE (1,1,1,2,3,3,3-D7)
+Synonym: ISOPROPYL ORTHO TOLUATE (1,1,1,2,3,3,3-D7)
+DB#: JP000064
+InChIKey: GKOTWEXRHKVLLK-UHFFFAOYSA-N
+MW: 178.099379688
+Formula: C11H14O2
+PrecursorMZ: 0
+Comments: "accession=JP000064" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=178.09938" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368958" "InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3/i1D3,2D3,8D" "Observed InChI Code=InChI=1S/C11H14O2/c1-8(2)13-11(12)10-7-5-4-6-9(10)3/h4-8H,1-3H3/i1D3,2D3,8D"
+Num Peaks: 28
+28 1.52
+30 5.07
+31 3.89
+39 6.26
+41 2.37
+42 1.52
+43 1.69
+45 2.54
+46 10.65
+50 17.58
+51 1.94
+63 3.47
+65 15.89
+66 2.96
+89 4.4
+90 11.41
+91 41.42
+92 10.99
+93 1.78
+118 41.25
+119 99.99
+120 11.67
+135 1.94
+136 1.69
+137 51.9
+138 6.76
+185 12
+186 1.01
+
+
+Name: METHYL SALICYLATE
+Synonym: METHYL SALICYLATE
+Synonym: METHYL ORTHO HYDROXY BENZOATE
+DB#: JP000065
+InChIKey: OSWPMRLSEDHDFF-UHFFFAOYSA-N
+MW: 152.04734411599998
+Formula: C8H8O3
+PrecursorMZ: 0
+Comments: "accession=JP000065" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=152.04734" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368963" "InChI Code=InChI=1S/C8H8O3/c1-11-8(10)6-4-2-3-5-7(6)9/h2-5,9H,1H3" "Observed InChI Code=InChI=1S/C8H8O3/c1-11-8(10)6-4-2-3-5-7(6)9/h2-5,9H,1H3"
+Num Peaks: 21
+27 1.28
+29 2.78
+38 4.78
+39 20.47
+50 2.14
+51 1.64
+53 5.85
+62 2.85
+63 12.84
+64 16.12
+65 24.18
+66 2.14
+92 66.62
+93 17.33
+94 1.78
+120 99.99
+121 30.88
+122 2.07
+137 0.71
+152 41.37
+153 3.57
+
+
+Name: METHYL META HYDROXY BENZOATE
+Synonym: METHYL META HYDROXY BENZOATE
+DB#: JP000066
+InChIKey: YKUCHDXIBAQWSF-UHFFFAOYSA-N
+MW: 152.04734411599998
+Formula: C8H8O3
+PrecursorMZ: 0
+Comments: "accession=JP000066" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=152.04734" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707368983" "InChI Code=InChI=1S/C8H8O3/c1-11-8(10)6-3-2-4-7(9)5-6/h2-5,9H,1H3" "Observed InChI Code=InChI=1S/C8H8O3/c1-11-8(10)6-3-2-4-7(9)5-6/h2-5,9H,1H3"
+Num Peaks: 21
+38 2.79
+39 14.08
+41 1.52
+50 1.58
+51 1.16
+53 2.63
+62 2.1
+63 6.99
+64 4.57
+65 25.43
+66 2.15
+77 1.73
+92 3.84
+93 45.72
+94 4.31
+120 2.73
+121 99.99
+122 8.2
+151 1
+152 42.98
+153 4.1
+
+
+Name: METHYL PARA HYDROXY BENZOATE
+Synonym: METHYL PARA HYDROXY BENZOATE
+DB#: JP000067
+InChIKey: LXCFILQKKLGQFO-UHFFFAOYSA-N
+MW: 152.04734411599998
+Formula: C8H8O3
+PrecursorMZ: 0
+Comments: "accession=JP000067" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=152.04734" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707369015" "InChI Code=InChI=1S/C8H8O3/c1-11-8(10)6-2-4-7(9)5-3-6/h2-5,9H,1H3" "Observed InChI Code=InChI=1S/C8H8O3/c1-11-8(10)6-2-4-7(9)5-3-6/h2-5,9H,1H3"
+Num Peaks: 17
+15 2.4
+38 1.55
+39 9.82
+53 1.55
+63 2.69
+64 1.7
+65 16.25
+66 1.13
+77 1.2
+92 1.2
+93 26.08
+94 1.77
+121 99.99
+122 8.34
+151 1.55
+152 31.38
+153 2.61
+
+
+Name: ETHYL SALICYLATE
+Synonym: ETHYL SALICYLATE
+Synonym: ETHYL ORTHO HYDROXY BENZOATE
+DB#: JP000068
+InChIKey: GYCKQBWUSACYIF-UHFFFAOYSA-N
+MW: 166.06299417999998
+Formula: C9H10O3
+PrecursorMZ: 0
+Comments: "accession=JP000068" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=166.06299" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707370683" "InChI Code=InChI=1S/C9H10O3/c1-2-12-9(11)7-5-3-4-6-8(7)10/h3-6,10H,2H2,1H3" "Observed InChI Code=InChI=1S/C9H10O3/c1-2-12-9(11)7-5-3-4-6-8(7)10/h3-6,10H,2H2,1H3"
+Num Peaks: 16
+27 2.89
+29 2.82
+38 1.44
+39 10.61
+53 2.38
+63 5.78
+64 8.01
+65 12.56
+92 44.26
+93 9.96
+120 99.99
+121 27.94
+122 1.88
+138 2.09
+166 25.99
+167 2.53
+
+
+Name: ETHYL PARA HYDROXY BENZOATE
+Synonym: ETHYL PARA HYDROXY BENZOATE
+DB#: JP000069
+InChIKey: NUVBSKCKDOMJSU-UHFFFAOYSA-N
+MW: 166.06299417999998
+Formula: C9H10O3
+PrecursorMZ: 0
+Comments: "accession=JP000069" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=166.06299" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707370731" "InChI Code=InChI=1S/C9H10O3/c1-2-12-9(11)7-3-5-8(10)6-4-7/h3-6,10H,2H2,1H3" "Observed InChI Code=InChI=1S/C9H10O3/c1-2-12-9(11)7-3-5-8(10)6-4-7/h3-6,10H,2H2,1H3"
+Num Peaks: 20
+39 0.98
+63 3.75
+64 2.34
+65 15.85
+66 1.5
+91 1.88
+92 4.64
+93 19.88
+94 2.44
+95 2.25
+119 1.5
+120 2.11
+121 99.99
+122 10.78
+138 28.79
+139 2.34
+151 1.97
+165 1.41
+166 18.75
+167 2.63
+
+
+Name: PROPYL SALICYLATE
+Synonym: PROPYL SALICYLATE
+Synonym: PROPYL ORTHO HYDROXY BENZOATE
+DB#: JP000070
+InChIKey: LZFIOSVZIQOVFW-UHFFFAOYSA-N
+MW: 180.07864424399997
+Formula: C10H12O3
+PrecursorMZ: 0
+Comments: "accession=JP000070" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=180.07864" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707370744" "InChI Code=InChI=1S/C10H12O3/c1-2-7-13-10(12)8-5-3-4-6-9(8)11/h3-6,11H,2,7H2,1H3" "Observed InChI Code=InChI=1S/C10H12O3/c1-2-7-13-10(12)8-5-3-4-6-9(8)11/h3-6,11H,2,7H2,1H3"
+Num Peaks: 16
+27 4.09
+39 8.17
+41 2.75
+43 1.42
+63 2.66
+64 3.55
+65 9.68
+92 19.89
+93 7.02
+120 99.99
+121 26.73
+122 2.04
+138 18.56
+139 1.24
+180 15.45
+181 1.6
+
+
+Name: PROPYL PARA HYDROXY BENZOATE
+Synonym: PROPYL PARA HYDROXY BENZOATE
+DB#: JP000071
+InChIKey: QELSKZZBTMNZEB-UHFFFAOYSA-N
+MW: 180.078644244
+Formula: C10H12O3
+PrecursorMZ: 0
+Comments: "accession=JP000071" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=180.07864" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707370782" "InChI Code=InChI=1S/C10H12O3/c1-2-7-13-10(12)8-3-5-9(11)6-4-8/h3-6,11H,2,7H2,1H3" "Observed InChI Code=InChI=1S/C10H12O3/c1-2-7-13-10(12)8-3-5-9(11)6-4-8/h3-6,11H,2,7H2,1H3"
+Num Peaks: 20
+27 1.74
+29 1.09
+39 7.11
+41 1.74
+43 1.09
+53 1.09
+63 1.81
+64 1.45
+65 12.55
+67 1.09
+92 1.02
+93 13.57
+94 1.45
+120 2.83
+121 99.99
+122 8.42
+138 53.27
+139 5.08
+180 3.41
+181 0.65
+
+
+Name: ISOPROPYL SALICYLATE
+Synonym: ISOPROPYL SALICYLATE
+Synonym: ISOPROPYL ORTHO HYDROXY BENZOATE
+DB#: JP000072
+InChIKey: YEULQIJMIOWCHB-UHFFFAOYSA-N
+MW: 180.07864424399997
+Formula: C10H12O3
+PrecursorMZ: 0
+Comments: "accession=JP000072" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=180.07864" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707370800" "InChI Code=InChI=1S/C10H12O3/c1-7(2)13-10(12)8-5-3-4-6-9(8)11/h3-7,11H,1-2H3" "Observed InChI Code=InChI=1S/C10H12O3/c1-7(2)13-10(12)8-5-3-4-6-9(8)11/h3-7,11H,1-2H3"
+Num Peaks: 17
+27 3.45
+39 8.9
+41 5.58
+43 6.39
+59 0.63
+63 2.82
+64 4.51
+65 9.15
+92 24.33
+93 5.96
+120 99.99
+121 28.97
+122 1.88
+138 31.66
+139 2.63
+180 12.79
+181 1.32
+
+
+Name: ISOPROPYL PARA HYDROXY BENZOATE
+Synonym: ISOPROPYL PARA HYDROXY BENZOATE
+DB#: JP000073
+InChIKey: CMHMMKSPYOOVGI-UHFFFAOYSA-N
+MW: 180.07864424399997
+Formula: C10H12O3
+PrecursorMZ: 0
+Comments: "accession=JP000073" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=180.07864" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707370833" "InChI Code=InChI=1S/C10H12O3/c1-7(2)13-10(12)8-3-5-9(11)6-4-8/h3-7,11H,1-2H3" "Observed InChI Code=InChI=1S/C10H12O3/c1-7(2)13-10(12)8-3-5-9(11)6-4-8/h3-7,11H,1-2H3"
+Num Peaks: 20
+39 2.11
+41 5.09
+42 2.4
+43 9.38
+59 18.55
+65 5.82
+66 1.31
+70 1.16
+71 1.24
+93 9.38
+94 3.05
+95 1.38
+121 99.99
+122 16.15
+123 1.45
+138 53.24
+139 5.16
+165 5.67
+180 8.8
+181 1.67
+
+
+Name: BUTYL SALICYLATE
+Synonym: BUTYL SALICYLATE
+Synonym: BUTYL ORTHO HYDROXY BENZOATE
+DB#: JP000074
+InChIKey: YFDUWSBGVPBWKF-UHFFFAOYSA-N
+MW: 194.09429430799997
+Formula: C11H14O3
+PrecursorMZ: 0
+Comments: "accession=JP000074" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=194.09429" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707370856" "InChI Code=InChI=1S/C11H14O3/c1-2-3-8-14-11(13)9-6-4-5-7-10(9)12/h4-7,12H,2-3,8H2,1H3" "Observed InChI Code=InChI=1S/C11H14O3/c1-2-3-8-14-11(13)9-6-4-5-7-10(9)12/h4-7,12H,2-3,8H2,1H3"
+Num Peaks: 23
+27 3.85
+29 12.59
+39 9.9
+41 12.09
+43 2.86
+53 1.76
+55 3.52
+56 2.91
+57 5.99
+63 3.3
+64 4.29
+65 11.98
+69 1.1
+71 1.65
+92 18.8
+93 7.97
+120 99.99
+121 26.72
+122 2.2
+138 22.1
+139 2.31
+194 11.71
+195 1.54
+
+
+Name: BUTYL PARA HYDROXY BENZOATE
+Synonym: BUTYL PARA HYDROXY BENZOATE
+DB#: JP000075
+InChIKey: QFOHBWFCKVYLES-UHFFFAOYSA-N
+MW: 194.094294308
+Formula: C11H14O3
+PrecursorMZ: 0
+Comments: "accession=JP000075" "author=TAJIMA S, GUNMA COLLEGE OF TECHNOLOGY" "license=CC BY-NC-SA" "exact mass=194.09429" "instrument=HITACHI RMU-7M" "instrument type=EI-B" "ms level=MS1" "ionization energy=70 eV" "ion type=[M]+*" "ionization mode=positive" "Last Auto-Curation=1488707370885" "InChI Code=InChI=1S/C11H14O3/c1-2-3-8-14-11(13)9-4-6-10(12)7-5-9/h4-7,12H,2-3,8H2,1H3" "Observed InChI Code=InChI=1S/C11H14O3/c1-2-3-8-14-11(13)9-4-6-10(12)7-5-9/h4-7,12H,2-3,8H2,1H3"
+Num Peaks: 18
+27 2.39
+29 1.03
+39 8.68
+41 3.69
+56 1.37
+63 2.05
+64 1.71
+65 13.88
+66 1.37
+92 1.44
+93 19.07
+94 2.05
+95 1.37
+120 1.3
+121 99.99
+122 8.89
+138 65.28
+139 8.89
+
+
