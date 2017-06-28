@@ -9,6 +9,7 @@ from KBaseReport.KBaseReportClient import KBaseReport
 from Workspace.WorkspaceClient import Workspace
 from taxaspec.filter import filter_file
 from taxaspec import acquire
+import zipfile
 #END_HEADER
 
 
@@ -102,16 +103,23 @@ class MetabolomicsTools:
             spec_file = acquire.from_mona(params['spectra_query'], scratch)
         else:
             spec_file = '/kb/module/data/%s' % params['spectra_source']
-            if not os.path.exists(spec_file):
+            try:
+                z = zipfile.ZipFile(spec_file+".zip")
+                z.extractall('/kb/module/data/')
+            except ValueError:
                 raise ValueError('%s is not a supported spectra source'
                                  % params['spectra_source'])
 
         # Filter Spectral Library
         n_in_spectra, n_out_spectra, output_file = filter_file(spec_file, None,
                                                                inchis, names)
-        new_path = scratch + '/' + os.path.basename(output_file)
-        shutil.move(output_file, new_path)
         print(n_in_spectra, n_out_spectra)
+        if not n_out_spectra:
+            raise RuntimeError("No matching spectra found")
+
+        new_path = "%s/%s%s.msp" % (scratch, os.path.basename(output_file)[:-9],
+                                    params['metabolic_model'])
+        shutil.move(output_file, new_path)
 
         # Package report
         report_files = [{'path': new_path,
