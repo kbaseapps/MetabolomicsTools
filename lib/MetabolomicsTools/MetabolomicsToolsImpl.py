@@ -100,7 +100,8 @@ class MetabolomicsTools:
 
         # Acquire Spectral Library
         if params['spectra_source'] == 'MoNA-API':
-            spec_file = acquire.from_mona(params['spectra_query'], scratch)
+            spec_file = acquire.from_mona(params['spectra_query'],
+                                          '/kb/module/data/')
         else:
             spec_file = '/kb/module/data/%s' % params['spectra_source']
             try:
@@ -117,7 +118,7 @@ class MetabolomicsTools:
         if not n_out_spectra:
             raise RuntimeError("No matching spectra found")
 
-        new_path = "%s/%s%s.msp" % (scratch, os.path.basename(output_file)[:-9],
+        new_path = "%s/%s%s.msp" % (scratch, os.path.basename(output_file)[:-8],
                                     params['metabolic_model'])
         shutil.move(output_file, new_path)
 
@@ -129,8 +130,8 @@ class MetabolomicsTools:
                                         'supplied metabolic model'}]
         report_params = {
             'objects_created': [],
-            'text_message': 'Acquired %s matching spectra and filtered library'
-                            ' to %s spectra which match the %s model' % (
+            'message': 'Acquired %s matching spectra and filtered library to '
+                       '%s spectra which match the %s model' % (
                 n_in_spectra, n_out_spectra, params['metabolic_model']),
             'file_links': report_files,
             'workspace_name': params['workspace_name'],

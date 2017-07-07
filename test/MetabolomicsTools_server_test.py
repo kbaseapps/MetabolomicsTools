@@ -85,3 +85,15 @@ class MetabolomicsToolsTest(unittest.TestCase):
         print('RESULT:')
         pprint(result)
         assert result
+
+    def test_mona_api(self):
+        params = {
+            'workspace_name': 'jjeffryes:narrative_1497984704461',
+            'metabolic_model': 'iMR1_799',
+            'spectra_source': 'MoNA-API',
+            'spectra_query': "metaData=q='name==\"collision energy\" and value==\"50 V\"'"
+        }
+        result = self.getImpl().get_spectra(self.getContext(), params)
+        print('RESULT:')
+        pprint(result)
+        assert result

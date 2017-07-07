@@ -6,7 +6,8 @@ from taxaspec import filter
 import sys
 import json as _json
 import random
-import datetime
+import time
+import os
 
 
 def from_mona(query, save_path='./'):
@@ -26,10 +27,10 @@ def from_mona(query, save_path='./'):
     if not r.status_code == 200:
         raise RuntimeError("Mona query failed with status code %s"
                            % r.status_code)
-    filename = "mona_%s.msp" % datetime.datetime.now()
+    filename = "mona_%s.msp" % time.time()
     with open(save_path + filename, "w") as outfile:
         outfile.write(r.text)
-    return save_path + filename
+    return os.path.join(save_path, filename)
 
 
 class ServerError(Exception):
