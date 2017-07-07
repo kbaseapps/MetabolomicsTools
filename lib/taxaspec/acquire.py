@@ -29,7 +29,7 @@ def from_mona(query, save_path='./'):
                            % r.status_code)
     filename = "mona_%s.msp" % time.time()
     with open(save_path + filename, "w") as outfile:
-        outfile.write(r.text)
+        outfile.write(r.text.encode('utf8'))
     return os.path.join(save_path, filename)
 
 

@@ -91,7 +91,7 @@ class MetabolomicsToolsTest(unittest.TestCase):
             'workspace_name': 'jjeffryes:narrative_1497984704461',
             'metabolic_model': 'iMR1_799',
             'spectra_source': 'MoNA-API',
-            'spectra_query': "metaData=q='name==\"collision energy\" and value==\"50 V\"'"
+            'spectra_query': "metaData=q='name==\"collision energy\" and value==\"35%\"'"
         }
         result = self.getImpl().get_spectra(self.getContext(), params)
         print('RESULT:')
