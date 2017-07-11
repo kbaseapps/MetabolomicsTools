@@ -25,6 +25,6 @@ module MetabolomicsTools {
         string report_ref;
     } SpectraResults;
 
-    funcdef get_spectra(GetSpectraParams params)
+    funcdef get_mona_spectra(GetSpectraParams params)
         returns (SpectraResults output) authentication required;
 };

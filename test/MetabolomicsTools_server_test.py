@@ -81,7 +81,7 @@ class MetabolomicsToolsTest(unittest.TestCase):
             'spectra_source': 'MoNA-export-GC-MS.msp',
             'spectra_query': ''
         }
-        result = self.getImpl().get_spectra(self.getContext(), params)
+        result = self.getImpl().get_mona_spectra(self.getContext(), params)
         print('RESULT:')
         pprint(result)
         assert result
@@ -93,7 +93,7 @@ class MetabolomicsToolsTest(unittest.TestCase):
             'spectra_source': 'MoNA-API',
             'spectra_query': "metaData=q='name==\"collision energy\" and value==\"35%\"'"
         }
-        result = self.getImpl().get_spectra(self.getContext(), params)
+        result = self.getImpl().get_mona_spectra(self.getContext(), params)
         print('RESULT:')
         pprint(result)
         assert result

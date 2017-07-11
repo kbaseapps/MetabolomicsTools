@@ -333,10 +333,10 @@ class Application(object):
         self.serverlog.set_log_level(6)
         self.rpc_service = JSONRPCServiceCustom()
         self.method_authentication = dict()
-        self.rpc_service.add(impl_MetabolomicsTools.get_spectra,
-                             name='MetabolomicsTools.get_spectra',
+        self.rpc_service.add(impl_MetabolomicsTools.get_mona_spectra,
+                             name='MetabolomicsTools.get_mona_spectra',
                              types=[dict])
-        self.method_authentication['MetabolomicsTools.get_spectra'] = 'required'  # noqa
+        self.method_authentication['MetabolomicsTools.get_mona_spectra'] = 'required'  # noqa
         self.rpc_service.add(impl_MetabolomicsTools.status,
                              name='MetabolomicsTools.status',
                              types=[dict])

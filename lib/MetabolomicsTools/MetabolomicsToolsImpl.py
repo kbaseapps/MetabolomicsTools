@@ -28,9 +28,9 @@ class MetabolomicsTools:
     # state. A method could easily clobber the state set by another while
     # the latter method is running.
     ######################################### noqa
-    VERSION = "0.0.1"
-    GIT_URL = "https://github.com/JamesJeffryes/MetabolomicsTools.git"
-    GIT_COMMIT_HASH = "9137e5b52f3559bc352d7c4943a8512f79b9e2af"
+    VERSION = "1.0.0"
+    GIT_URL = "git@github.com:JamesJeffryes/MetabolomicsTools.git"
+    GIT_COMMIT_HASH = "c76fc0898314fad8a852c976f5d6d0ca5082fcf0"
 
     #BEGIN_CLASS_HEADER
     # Class variables and functions can be defined in this block
@@ -51,7 +51,7 @@ class MetabolomicsTools:
         pass
 
 
-    def get_spectra(self, ctx, params):
+    def get_mona_spectra(self, ctx, params):
         """
         :param params: instance of type "GetSpectraParams" -> structure:
            parameter "workspace_name" of String, parameter "metabolic_model"
@@ -63,8 +63,7 @@ class MetabolomicsTools:
         """
         # ctx is the context object
         # return variables are: output
-        #BEGIN get_spectra
-
+        #BEGIN get_mona_spectra
         # Parse/examine the parameters and catch any errors
         print('Validating parameters.')
         for val in ('workspace_name', 'metabolic_model', 'spectra_source',
@@ -105,7 +104,7 @@ class MetabolomicsTools:
         else:
             spec_file = '/kb/module/data/%s' % params['spectra_source']
             try:
-                z = zipfile.ZipFile(spec_file+".zip")
+                z = zipfile.ZipFile(spec_file + ".zip")
                 z.extractall('/kb/module/data/')
             except ValueError:
                 raise ValueError('%s is not a supported spectra source'
@@ -144,11 +143,11 @@ class MetabolomicsTools:
         output = {'report_name': report_info['name'],
                   'report_ref': report_info['ref'],
                   }
-        #END get_spectra
+        #END get_mona_spectra
 
         # At some point might do deeper type checking...
         if not isinstance(output, dict):
-            raise ValueError('Method get_spectra return value ' +
+            raise ValueError('Method get_mona_spectra return value ' +
                              'output is not type dict as required.')
         # return the results
         return [output]

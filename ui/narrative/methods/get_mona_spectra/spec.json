@@ -70,7 +70,7 @@
         "service-mapping": {
             "url": "",
             "name":"MetabolomicsTools",
-            "method": "get_spectra",
+            "method": "get_mona_spectra",
             "input_mapping": [
                 {
                     "narrative_system_variable": "workspace",

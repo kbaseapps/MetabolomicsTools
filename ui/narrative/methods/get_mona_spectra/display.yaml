@@ -1,0 +1,56 @@
+#
+# define display information
+#
+name: Get Mass Spectra from MoNA
+tooltip: |
+    Search the Mass Bank of North America for mass spectra corresponding to a specified metabolic model
+screenshots: []
+
+icon: mona.svg
+
+#
+# define a set of similar methods that might be useful to the user
+#
+suggestions:
+    apps:
+        related:
+            []
+        next:
+            []
+    methods:
+        related:
+            []
+        next:
+            []
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    metabolic_model :
+        ui-name : |
+            Metabolic Model
+        short-hint : |
+            The metabolic model with which to filter the spectral library
+    spectra_source :
+        ui-name : |
+            Spectra Source
+        short-hint : |
+            The spectra type to pull
+    spectra_query :
+        ui-name : |
+            Spectra Source Query
+        short-hint : |
+            A query applied to the spectra source to limit the size of the library a priori.
+            Only functionaly with MONA API option.
+            For example, 'compound.metaData=q=name=="molecular formula" and value=="C47H74O12S"'
+            would limit the query to only return compounds with a formula of C47H74O12S.
+description : |
+    <p>Public Mass Spectra Libraries are a great resource to help annoatate
+    metabolomics data and quantify the concentrations of small molicules in the
+    cell and in the media. However, just like general chemistry databases, these
+    libraries contain many more compounds than are relivant for a particular
+    experiment and species. This tool pulls from the largest free mass spectrum
+    repository, the Mass Bank of North America and filters this library to produce
+    a subset which contains only spectra which match the chemical structure or
+    name of a compound in a metabolic model.</p>

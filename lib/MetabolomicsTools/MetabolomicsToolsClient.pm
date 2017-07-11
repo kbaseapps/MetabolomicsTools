@@ -108,9 +108,9 @@ sub new
 
 
 
-=head2 get_spectra
+=head2 get_mona_spectra
 
-  $output = $obj->get_spectra($params)
+  $output = $obj->get_mona_spectra($params)
 
 =over 4
 
@@ -160,7 +160,7 @@ SpectraResults is a reference to a hash where the following keys are defined:
 
 =cut
 
- sub get_spectra
+ sub get_mona_spectra
 {
     my($self, @args) = @_;
 
@@ -169,7 +169,7 @@ SpectraResults is a reference to a hash where the following keys are defined:
     if ((my $n = @args) != 1)
     {
 	Bio::KBase::Exceptions::ArgumentValidationError->throw(error =>
-							       "Invalid argument count for function get_spectra (received $n, expecting 1)");
+							       "Invalid argument count for function get_mona_spectra (received $n, expecting 1)");
     }
     {
 	my($params) = @args;
@@ -177,31 +177,31 @@ SpectraResults is a reference to a hash where the following keys are defined:
 	my @_bad_arguments;
         (ref($params) eq 'HASH') or push(@_bad_arguments, "Invalid type for argument 1 \"params\" (value was \"$params\")");
         if (@_bad_arguments) {
-	    my $msg = "Invalid arguments passed to get_spectra:\n" . join("", map { "\t$_\n" } @_bad_arguments);
+	    my $msg = "Invalid arguments passed to get_mona_spectra:\n" . join("", map { "\t$_\n" } @_bad_arguments);
 	    Bio::KBase::Exceptions::ArgumentValidationError->throw(error => $msg,
-								   method_name => 'get_spectra');
+								   method_name => 'get_mona_spectra');
 	}
     }
 
     my $url = $self->{url};
     my $result = $self->{client}->call($url, $self->{headers}, {
-	    method => "MetabolomicsTools.get_spectra",
+	    method => "MetabolomicsTools.get_mona_spectra",
 	    params => \@args,
     });
     if ($result) {
 	if ($result->is_error) {
 	    Bio::KBase::Exceptions::JSONRPC->throw(error => $result->error_message,
 					       code => $result->content->{error}->{code},
-					       method_name => 'get_spectra',
+					       method_name => 'get_mona_spectra',
 					       data => $result->content->{error}->{error} # JSON::RPC::ReturnObject only supports JSONRPC 1.1 or 1.O
 					      );
 	} else {
 	    return wantarray ? @{$result->result} : $result->result->[0];
 	}
     } else {
-        Bio::KBase::Exceptions::HTTP->throw(error => "Error invoking method get_spectra",
+        Bio::KBase::Exceptions::HTTP->throw(error => "Error invoking method get_mona_spectra",
 					    status_line => $self->{client}->status_line,
-					    method_name => 'get_spectra',
+					    method_name => 'get_mona_spectra',
 				       );
     }
 }
@@ -249,16 +249,16 @@ sub version {
             Bio::KBase::Exceptions::JSONRPC->throw(
                 error => $result->error_message,
                 code => $result->content->{code},
-                method_name => 'get_spectra',
+                method_name => 'get_mona_spectra',
             );
         } else {
             return wantarray ? @{$result->result} : $result->result->[0];
         }
     } else {
         Bio::KBase::Exceptions::HTTP->throw(
-            error => "Error invoking method get_spectra",
+            error => "Error invoking method get_mona_spectra",
             status_line => $self->{client}->status_line,
-            method_name => 'get_spectra',
+            method_name => 'get_mona_spectra',
         );
     }
 }

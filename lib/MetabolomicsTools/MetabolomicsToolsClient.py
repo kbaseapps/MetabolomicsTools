@@ -33,7 +33,7 @@ class MetabolomicsTools(object):
             trust_all_ssl_certificates=trust_all_ssl_certificates,
             auth_svc=auth_svc)
 
-    def get_spectra(self, params, context=None):
+    def get_mona_spectra(self, params, context=None):
         """
         :param params: instance of type "GetSpectraParams" -> structure:
            parameter "workspace_name" of String, parameter "metabolic_model"
@@ -44,7 +44,7 @@ class MetabolomicsTools(object):
            "report_name" of String, parameter "report_ref" of String
         """
         return self._client.call_method(
-            'MetabolomicsTools.get_spectra',
+            'MetabolomicsTools.get_mona_spectra',
             [params], self._service_ver, context)
 
     def status(self, context=None):
