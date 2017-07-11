@@ -6,7 +6,7 @@ tooltip: |
     Search the Mass Bank of North America for mass spectra corresponding to a specified metabolic model
 screenshots: []
 
-icon: mona.svg
+icon: Mona.png
 
 #
 # define a set of similar methods that might be useful to the user
