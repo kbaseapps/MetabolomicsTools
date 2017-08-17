@@ -22,7 +22,9 @@ RUN pip install cffi --upgrade \
     && pip install 'requests[security]' --upgrade
 
 # -----------------------------------------
-
+#RUN mkdir -p /kb/module/data/ \
+#    && curl http://minedatabase.mcs.anl.gov/release/CFM_spectra/KEGG/Positive_CFM_Spectra.msp.zip > /kb/module/data/Positive_CFM_Spectra.msp.zip
+#    && curl http://minedatabase.mcs.anl.gov/release/CFM_spectra/KEGG/Negative_CFM_Spectra.msp.zip > /kb/module/data/Negative_CFM_Spectra.msp.zip
 COPY ./ /kb/module
 RUN mkdir -p /kb/module/work
 RUN chmod -R a+rw /kb/module

@@ -10,6 +10,7 @@ from Workspace.WorkspaceClient import Workspace
 from taxaspec.filter import filter_file
 from taxaspec import acquire
 import zipfile
+from subprocess import call
 #END_HEADER
 
 
@@ -40,7 +41,7 @@ class MetabolomicsTools:
     # be found
     def __init__(self, config):
         #BEGIN_CONSTRUCTOR
-        
+
         # Any configuration parameters that are important should be parsed and
         # saved in the constructor.
         self.callback_url = os.environ['SDK_CALLBACK_URL']
@@ -103,9 +104,10 @@ class MetabolomicsTools:
                                           '/kb/module/data/')
         else:
             spec_file = '/kb/module/data/%s' % params['spectra_source']
+            print(os.listdir('/kb/module/data/'))
             try:
-                z = zipfile.ZipFile(spec_file + ".zip")
-                z.extractall('/kb/module/data/')
+                #z = zipfile.ZipFile(spec_file + ".zip")
+                #z.extractall('/kb/module/data/')
             except ValueError:
                 raise ValueError('%s is not a supported spectra source'
                                  % params['spectra_source'])

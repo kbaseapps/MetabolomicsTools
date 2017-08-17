@@ -74,9 +74,9 @@ class MetabolomicsToolsTest(unittest.TestCase):
     def getContext(self):
         return self.__class__.ctx
 
-    def test_get_spectra(self):
+    def test_get_spectra_mona(self):
         params = {
-            'workspace_name': 'jjeffryes:narrative_1497984704461',
+            'workspace_name': 'jjeffryes:narrative_1501177142429',
             'metabolic_model': 'iMR1_799',
             'spectra_source': 'MoNA-export-GC-MS.msp',
             'spectra_query': ''
@@ -88,10 +88,22 @@ class MetabolomicsToolsTest(unittest.TestCase):
 
     def test_mona_api(self):
         params = {
-            'workspace_name': 'jjeffryes:narrative_1497984704461',
+            'workspace_name': 'jjeffryes:narrative_1501177142429',
             'metabolic_model': 'iMR1_799',
             'spectra_source': 'MoNA-API',
             'spectra_query': "metaData=q='name==\"collision energy\" and value==\"35%\"'"
+        }
+        result = self.getImpl().get_mona_spectra(self.getContext(), params)
+        print('RESULT:')
+        pprint(result)
+        assert result
+
+    def test_get_spectra_mine(self):
+        params = {
+            'workspace_name': 'jjeffryes:narrative_1501177142429',
+            'metabolic_model': 'iMR1_799',
+            'spectra_source': 'Positive_CFM_Spectra.msp',
+            'spectra_query': ""
         }
         result = self.getImpl().get_mona_spectra(self.getContext(), params)
         print('RESULT:')
