@@ -35,16 +35,33 @@ class MetabolomicsTools(object):
 
     def get_mona_spectra(self, params, context=None):
         """
-        :param params: instance of type "GetSpectraParams" -> structure:
-           parameter "workspace_name" of String, parameter "metabolic_model"
-           of type "model_ref" (A reference to a kbase metabolic model),
-           parameter "spectra_source" of String, parameter "spectra_query" of
-           String
+        :param params: instance of type "GetMonaSpectraParams" -> structure:
+           parameter "workspace_name" of String, parameter "compound_object"
+           of type "obj_ref" (A reference to a FBAModel, CompoundSet or FBA
+           object), parameter "spectra_source" of String, parameter
+           "spectra_query" of String, parameter "use_inchi" of type "bool",
+           parameter "use_name" of type "bool"
         :returns: instance of type "SpectraResults" -> structure: parameter
            "report_name" of String, parameter "report_ref" of String
         """
         return self._client.call_method(
             'MetabolomicsTools.get_mona_spectra',
+            [params], self._service_ver, context)
+
+    def get_mine_spectra(self, params, context=None):
+        """
+        :param params: instance of type "GetMineSpectraParams" -> structure:
+           parameter "workspace_name" of String, parameter "compound_object"
+           of type "obj_ref" (A reference to a FBAModel, CompoundSet or FBA
+           object), parameter "charge" of type "bool", parameter
+           "energy_levels" of list of String, parameter "use_inchi" of type
+           "bool", parameter "use_name" of type "bool", parameter
+           "use_source" of type "bool"
+        :returns: instance of type "SpectraResults" -> structure: parameter
+           "report_name" of String, parameter "report_ref" of String
+        """
+        return self._client.call_method(
+            'MetabolomicsTools.get_mine_spectra',
             [params], self._service_ver, context)
 
     def status(self, context=None):

@@ -166,16 +166,33 @@ public class MetabolomicsToolsClient {
      * <p>Original spec-file function name: get_mona_spectra</p>
      * <pre>
      * </pre>
-     * @param   params   instance of type {@link us.kbase.metabolomicstools.GetSpectraParams GetSpectraParams}
+     * @param   params   instance of type {@link us.kbase.metabolomicstools.GetMonaSpectraParams GetMonaSpectraParams}
      * @return   parameter "output" of type {@link us.kbase.metabolomicstools.SpectraResults SpectraResults}
      * @throws IOException if an IO exception occurs
      * @throws JsonClientException if a JSON RPC exception occurs
      */
-    public SpectraResults getMonaSpectra(GetSpectraParams params, RpcContext... jsonRpcContext) throws IOException, JsonClientException {
+    public SpectraResults getMonaSpectra(GetMonaSpectraParams params, RpcContext... jsonRpcContext) throws IOException, JsonClientException {
         List<Object> args = new ArrayList<Object>();
         args.add(params);
         TypeReference<List<SpectraResults>> retType = new TypeReference<List<SpectraResults>>() {};
         List<SpectraResults> res = caller.jsonrpcCall("MetabolomicsTools.get_mona_spectra", args, retType, true, true, jsonRpcContext, this.serviceVersion);
+        return res.get(0);
+    }
+
+    /**
+     * <p>Original spec-file function name: get_mine_spectra</p>
+     * <pre>
+     * </pre>
+     * @param   params   instance of type {@link us.kbase.metabolomicstools.GetMineSpectraParams GetMineSpectraParams}
+     * @return   parameter "output" of type {@link us.kbase.metabolomicstools.SpectraResults SpectraResults}
+     * @throws IOException if an IO exception occurs
+     * @throws JsonClientException if a JSON RPC exception occurs
+     */
+    public SpectraResults getMineSpectra(GetMineSpectraParams params, RpcContext... jsonRpcContext) throws IOException, JsonClientException {
+        List<Object> args = new ArrayList<Object>();
+        args.add(params);
+        TypeReference<List<SpectraResults>> retType = new TypeReference<List<SpectraResults>>() {};
+        List<SpectraResults> res = caller.jsonrpcCall("MetabolomicsTools.get_mine_spectra", args, retType, true, true, jsonRpcContext, this.serviceVersion);
         return res.get(0);
     }
 

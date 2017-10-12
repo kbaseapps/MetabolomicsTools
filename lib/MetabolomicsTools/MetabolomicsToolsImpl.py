@@ -28,9 +28,9 @@ class MetabolomicsTools:
     # state. A method could easily clobber the state set by another while
     # the latter method is running.
     ######################################### noqa
-    VERSION = "1.0.0"
+    VERSION = "1.1.0"
     GIT_URL = "git@github.com:JamesJeffryes/MetabolomicsTools.git"
-    GIT_COMMIT_HASH = "c76fc0898314fad8a852c976f5d6d0ca5082fcf0"
+    GIT_COMMIT_HASH = "bc7e4f95080183b7ae3c7cf1ce7789522aa8193b"
 
     #BEGIN_CLASS_HEADER
     # Class variables and functions can be defined in this block
@@ -53,11 +53,12 @@ class MetabolomicsTools:
 
     def get_mona_spectra(self, ctx, params):
         """
-        :param params: instance of type "GetSpectraParams" -> structure:
-           parameter "workspace_name" of String, parameter "metabolic_model"
-           of type "model_ref" (A reference to a kbase metabolic model),
-           parameter "spectra_source" of String, parameter "spectra_query" of
-           String
+        :param params: instance of type "GetMonaSpectraParams" -> structure:
+           parameter "workspace_name" of String, parameter "compound_object"
+           of type "obj_ref" (A reference to a FBAModel, CompoundSet or FBA
+           object), parameter "spectra_source" of String, parameter
+           "spectra_query" of String, parameter "use_inchi" of type "bool",
+           parameter "use_name" of type "bool"
         :returns: instance of type "SpectraResults" -> structure: parameter
            "report_name" of String, parameter "report_ref" of String
         """
@@ -148,6 +149,30 @@ class MetabolomicsTools:
         # At some point might do deeper type checking...
         if not isinstance(output, dict):
             raise ValueError('Method get_mona_spectra return value ' +
+                             'output is not type dict as required.')
+        # return the results
+        return [output]
+
+    def get_mine_spectra(self, ctx, params):
+        """
+        :param params: instance of type "GetMineSpectraParams" -> structure:
+           parameter "workspace_name" of String, parameter "compound_object"
+           of type "obj_ref" (A reference to a FBAModel, CompoundSet or FBA
+           object), parameter "charge" of type "bool", parameter
+           "energy_levels" of list of String, parameter "use_inchi" of type
+           "bool", parameter "use_name" of type "bool", parameter
+           "use_source" of type "bool"
+        :returns: instance of type "SpectraResults" -> structure: parameter
+           "report_name" of String, parameter "report_ref" of String
+        """
+        # ctx is the context object
+        # return variables are: output
+        #BEGIN get_mine_spectra
+        #END get_mine_spectra
+
+        # At some point might do deeper type checking...
+        if not isinstance(output, dict):
+            raise ValueError('Method get_mine_spectra return value ' +
                              'output is not type dict as required.')
         # return the results
         return [output]

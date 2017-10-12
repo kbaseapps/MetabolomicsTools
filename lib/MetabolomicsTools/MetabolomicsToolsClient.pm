@@ -119,14 +119,17 @@ sub new
 =begin html
 
 <pre>
-$params is a MetabolomicsTools.GetSpectraParams
+$params is a MetabolomicsTools.GetMonaSpectraParams
 $output is a MetabolomicsTools.SpectraResults
-GetSpectraParams is a reference to a hash where the following keys are defined:
+GetMonaSpectraParams is a reference to a hash where the following keys are defined:
 	workspace_name has a value which is a string
-	metabolic_model has a value which is a MetabolomicsTools.model_ref
+	compound_object has a value which is a MetabolomicsTools.obj_ref
 	spectra_source has a value which is a string
 	spectra_query has a value which is a string
-model_ref is a string
+	use_inchi has a value which is a MetabolomicsTools.bool
+	use_name has a value which is a MetabolomicsTools.bool
+obj_ref is a string
+bool is an int
 SpectraResults is a reference to a hash where the following keys are defined:
 	report_name has a value which is a string
 	report_ref has a value which is a string
@@ -137,14 +140,17 @@ SpectraResults is a reference to a hash where the following keys are defined:
 
 =begin text
 
-$params is a MetabolomicsTools.GetSpectraParams
+$params is a MetabolomicsTools.GetMonaSpectraParams
 $output is a MetabolomicsTools.SpectraResults
-GetSpectraParams is a reference to a hash where the following keys are defined:
+GetMonaSpectraParams is a reference to a hash where the following keys are defined:
 	workspace_name has a value which is a string
-	metabolic_model has a value which is a MetabolomicsTools.model_ref
+	compound_object has a value which is a MetabolomicsTools.obj_ref
 	spectra_source has a value which is a string
 	spectra_query has a value which is a string
-model_ref is a string
+	use_inchi has a value which is a MetabolomicsTools.bool
+	use_name has a value which is a MetabolomicsTools.bool
+obj_ref is a string
+bool is an int
 SpectraResults is a reference to a hash where the following keys are defined:
 	report_name has a value which is a string
 	report_ref has a value which is a string
@@ -206,6 +212,114 @@ SpectraResults is a reference to a hash where the following keys are defined:
     }
 }
  
+
+
+=head2 get_mine_spectra
+
+  $output = $obj->get_mine_spectra($params)
+
+=over 4
+
+=item Parameter and return types
+
+=begin html
+
+<pre>
+$params is a MetabolomicsTools.GetMineSpectraParams
+$output is a MetabolomicsTools.SpectraResults
+GetMineSpectraParams is a reference to a hash where the following keys are defined:
+	workspace_name has a value which is a string
+	compound_object has a value which is a MetabolomicsTools.obj_ref
+	charge has a value which is a MetabolomicsTools.bool
+	energy_levels has a value which is a reference to a list where each element is a string
+	use_inchi has a value which is a MetabolomicsTools.bool
+	use_name has a value which is a MetabolomicsTools.bool
+	use_source has a value which is a MetabolomicsTools.bool
+obj_ref is a string
+bool is an int
+SpectraResults is a reference to a hash where the following keys are defined:
+	report_name has a value which is a string
+	report_ref has a value which is a string
+
+</pre>
+
+=end html
+
+=begin text
+
+$params is a MetabolomicsTools.GetMineSpectraParams
+$output is a MetabolomicsTools.SpectraResults
+GetMineSpectraParams is a reference to a hash where the following keys are defined:
+	workspace_name has a value which is a string
+	compound_object has a value which is a MetabolomicsTools.obj_ref
+	charge has a value which is a MetabolomicsTools.bool
+	energy_levels has a value which is a reference to a list where each element is a string
+	use_inchi has a value which is a MetabolomicsTools.bool
+	use_name has a value which is a MetabolomicsTools.bool
+	use_source has a value which is a MetabolomicsTools.bool
+obj_ref is a string
+bool is an int
+SpectraResults is a reference to a hash where the following keys are defined:
+	report_name has a value which is a string
+	report_ref has a value which is a string
+
+
+=end text
+
+=item Description
+
+
+
+=back
+
+=cut
+
+ sub get_mine_spectra
+{
+    my($self, @args) = @_;
+
+# Authentication: required
+
+    if ((my $n = @args) != 1)
+    {
+	Bio::KBase::Exceptions::ArgumentValidationError->throw(error =>
+							       "Invalid argument count for function get_mine_spectra (received $n, expecting 1)");
+    }
+    {
+	my($params) = @args;
+
+	my @_bad_arguments;
+        (ref($params) eq 'HASH') or push(@_bad_arguments, "Invalid type for argument 1 \"params\" (value was \"$params\")");
+        if (@_bad_arguments) {
+	    my $msg = "Invalid arguments passed to get_mine_spectra:\n" . join("", map { "\t$_\n" } @_bad_arguments);
+	    Bio::KBase::Exceptions::ArgumentValidationError->throw(error => $msg,
+								   method_name => 'get_mine_spectra');
+	}
+    }
+
+    my $url = $self->{url};
+    my $result = $self->{client}->call($url, $self->{headers}, {
+	    method => "MetabolomicsTools.get_mine_spectra",
+	    params => \@args,
+    });
+    if ($result) {
+	if ($result->is_error) {
+	    Bio::KBase::Exceptions::JSONRPC->throw(error => $result->error_message,
+					       code => $result->content->{error}->{code},
+					       method_name => 'get_mine_spectra',
+					       data => $result->content->{error}->{error} # JSON::RPC::ReturnObject only supports JSONRPC 1.1 or 1.O
+					      );
+	} else {
+	    return wantarray ? @{$result->result} : $result->result->[0];
+	}
+    } else {
+        Bio::KBase::Exceptions::HTTP->throw(error => "Error invoking method get_mine_spectra",
+					    status_line => $self->{client}->status_line,
+					    method_name => 'get_mine_spectra',
+				       );
+    }
+}
+ 
   
 sub status
 {
@@ -249,16 +363,16 @@ sub version {
             Bio::KBase::Exceptions::JSONRPC->throw(
                 error => $result->error_message,
                 code => $result->content->{code},
-                method_name => 'get_mona_spectra',
+                method_name => 'get_mine_spectra',
             );
         } else {
             return wantarray ? @{$result->result} : $result->result->[0];
         }
     } else {
         Bio::KBase::Exceptions::HTTP->throw(
-            error => "Error invoking method get_mona_spectra",
+            error => "Error invoking method get_mine_spectra",
             status_line => $self->{client}->status_line,
-            method_name => 'get_mona_spectra',
+            method_name => 'get_mine_spectra',
         );
     }
 }
@@ -295,7 +409,33 @@ sub _validate_version {
 
 
 
-=head2 mspSpectraLibrary
+=head2 bool
+
+=over 4
+
+
+
+=item Definition
+
+=begin html
+
+<pre>
+an int
+</pre>
+
+=end html
+
+=begin text
+
+an int
+
+=end text
+
+=back
+
+
+
+=head2 obj_ref
 
 =over 4
 
@@ -303,7 +443,7 @@ sub _validate_version {
 
 =item Description
 
-A mass spectral library in MSP format
+A reference to a FBAModel, CompoundSet or FBA object
 
 
 =item Definition
@@ -326,75 +466,7 @@ a string
 
 
 
-=head2 model_ref
-
-=over 4
-
-
-
-=item Description
-
-A reference to a kbase metabolic model
-
-
-=item Definition
-
-=begin html
-
-<pre>
-a string
-</pre>
-
-=end html
-
-=begin text
-
-a string
-
-=end text
-
-=back
-
-
-
-=head2 peak
-
-=over 4
-
-
-
-=item Description
-
-A peak as tuple of mass/charge ratio and intensity
-
-
-=item Definition
-
-=begin html
-
-<pre>
-a reference to a list containing 2 items:
-0: (mz) a float
-1: (intensity) a float
-
-</pre>
-
-=end html
-
-=begin text
-
-a reference to a list containing 2 items:
-0: (mz) a float
-1: (intensity) a float
-
-
-=end text
-
-=back
-
-
-
-=head2 GetSpectraParams
+=head2 GetMonaSpectraParams
 
 =over 4
 
@@ -407,9 +479,11 @@ a reference to a list containing 2 items:
 <pre>
 a reference to a hash where the following keys are defined:
 workspace_name has a value which is a string
-metabolic_model has a value which is a MetabolomicsTools.model_ref
+compound_object has a value which is a MetabolomicsTools.obj_ref
 spectra_source has a value which is a string
 spectra_query has a value which is a string
+use_inchi has a value which is a MetabolomicsTools.bool
+use_name has a value which is a MetabolomicsTools.bool
 
 </pre>
 
@@ -419,9 +493,11 @@ spectra_query has a value which is a string
 
 a reference to a hash where the following keys are defined:
 workspace_name has a value which is a string
-metabolic_model has a value which is a MetabolomicsTools.model_ref
+compound_object has a value which is a MetabolomicsTools.obj_ref
 spectra_source has a value which is a string
 spectra_query has a value which is a string
+use_inchi has a value which is a MetabolomicsTools.bool
+use_name has a value which is a MetabolomicsTools.bool
 
 
 =end text
@@ -454,6 +530,48 @@ report_ref has a value which is a string
 a reference to a hash where the following keys are defined:
 report_name has a value which is a string
 report_ref has a value which is a string
+
+
+=end text
+
+=back
+
+
+
+=head2 GetMineSpectraParams
+
+=over 4
+
+
+
+=item Definition
+
+=begin html
+
+<pre>
+a reference to a hash where the following keys are defined:
+workspace_name has a value which is a string
+compound_object has a value which is a MetabolomicsTools.obj_ref
+charge has a value which is a MetabolomicsTools.bool
+energy_levels has a value which is a reference to a list where each element is a string
+use_inchi has a value which is a MetabolomicsTools.bool
+use_name has a value which is a MetabolomicsTools.bool
+use_source has a value which is a MetabolomicsTools.bool
+
+</pre>
+
+=end html
+
+=begin text
+
+a reference to a hash where the following keys are defined:
+workspace_name has a value which is a string
+compound_object has a value which is a MetabolomicsTools.obj_ref
+charge has a value which is a MetabolomicsTools.bool
+energy_levels has a value which is a reference to a list where each element is a string
+use_inchi has a value which is a MetabolomicsTools.bool
+use_name has a value which is a MetabolomicsTools.bool
+use_source has a value which is a MetabolomicsTools.bool
 
 
 =end text

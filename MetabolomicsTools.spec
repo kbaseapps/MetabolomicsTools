@@ -4,27 +4,38 @@ A KBase module: MetabolomicsTools
 */
 
 module MetabolomicsTools {
-    /* A mass spectral library in MSP format */
-    typedef string mspSpectraLibrary;
+    typedef int bool;
 
-    /* A reference to a kbase metabolic model */
-    typedef string model_ref;
-
-    /* A peak as tuple of mass/charge ratio and intensity  */
-	typedef tuple<float mz, float intensity> peak;
+    /* A reference to a FBAModel, CompoundSet or FBA object */
+    typedef string obj_ref;
 
     typedef structure {
         string workspace_name;
-        model_ref metabolic_model;
+        obj_ref compound_object;
         string spectra_source;
         string spectra_query;
-    } GetSpectraParams;
+        bool use_inchi;
+        bool use_name;
+    } GetMonaSpectraParams;
 
     typedef structure {
         string report_name;
         string report_ref;
     } SpectraResults;
 
-    funcdef get_mona_spectra(GetSpectraParams params)
+    funcdef get_mona_spectra(GetMonaSpectraParams params)
+        returns (SpectraResults output) authentication required;
+
+    typedef structure {
+        string workspace_name;
+        obj_ref compound_object;
+        bool charge;
+        list<string> energy_levels;
+        bool use_inchi;
+        bool use_name;
+        bool use_source;
+    } GetMineSpectraParams;
+
+    funcdef get_mine_spectra(GetMineSpectraParams params)
         returns (SpectraResults output) authentication required;
 };

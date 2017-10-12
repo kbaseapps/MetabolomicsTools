@@ -337,6 +337,10 @@ class Application(object):
                              name='MetabolomicsTools.get_mona_spectra',
                              types=[dict])
         self.method_authentication['MetabolomicsTools.get_mona_spectra'] = 'required'  # noqa
+        self.rpc_service.add(impl_MetabolomicsTools.get_mine_spectra,
+                             name='MetabolomicsTools.get_mine_spectra',
+                             types=[dict])
+        self.method_authentication['MetabolomicsTools.get_mine_spectra'] = 'required'  # noqa
         self.rpc_service.add(impl_MetabolomicsTools.status,
                              name='MetabolomicsTools.status',
                              types=[dict])
