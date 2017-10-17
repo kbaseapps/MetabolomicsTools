@@ -11,7 +11,7 @@
     },
     "parameters": [ 
         {
-            "id": "metabolic_model",
+            "id": "compound_object",
             "optional": false,
             "advanced": false,
             "allow_multiple": false,
@@ -64,6 +64,34 @@
             "allow_multiple": false,
             "default_values": [ "" ],
             "field_type": "text"
+        },
+        {
+         "field_type" : "checkbox",
+         "allow_multiple" : false,
+         "optional" : false,
+         "id" : "use_inchi",
+         "advanced" : false,
+         "default_values" : [
+            "1"
+         ],
+         "checkbox_options" : {
+            "unchecked_value" : 0,
+            "checked_value" : 1
+         }
+        },
+        {
+         "field_type" : "checkbox",
+         "allow_multiple" : false,
+         "optional" : false,
+         "id" : "use_name",
+         "advanced" : false,
+         "default_values" : [
+            "1"
+         ],
+         "checkbox_options" : {
+            "unchecked_value" : 0,
+            "checked_value" : 1
+         }
         }
     ],
     "behavior": {
@@ -77,17 +105,22 @@
                     "target_property": "workspace_name"
                 },
                 {
-                    "input_parameter": "metabolic_model",
-                    "target_property": "metabolic_model"
+                    "input_parameter": "compound_object",
+                    "target_property": "compound_object"
                 },
                 {
                     "input_parameter": "spectra_source",
                     "target_property": "spectra_source"
                 },
                 {
-                    "input_parameter": "spectra_query",
-                    "target_property": "spectra_query"
+                    "input_parameter": "use_inchi",
+                    "target_property": "use_inchi"
+                },
+                {
+                    "input_parameter": "use_name",
+                    "target_property": "use_name"
                 }
+
             ],
             "output_mapping": [
                 {

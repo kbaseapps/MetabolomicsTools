@@ -30,7 +30,7 @@ class MetabolomicsTools:
     ######################################### noqa
     VERSION = "1.1.0"
     GIT_URL = "git@github.com:JamesJeffryes/MetabolomicsTools.git"
-    GIT_COMMIT_HASH = "bc7e4f95080183b7ae3c7cf1ce7789522aa8193b"
+    GIT_COMMIT_HASH = "363df2f11fa96beee44cdced4212f3ad67b5f5f7"
 
     #BEGIN_CLASS_HEADER
     # Class variables and functions can be defined in this block
@@ -67,12 +67,14 @@ class MetabolomicsTools:
         #BEGIN get_mona_spectra
         # Parse/examine the parameters and catch any errors
         print('Validating parameters.')
-        for val in ('workspace_name', 'metabolic_model', 'spectra_source',
-                    'spectra_query'):
+        for val in ('workspace_name', 'compound_object', 'spectra_source',
+                    'spectra_query', 'use_inchi', 'use_name'):
             if val not in params:
                 raise ValueError('Parameter %s is not set in input arguments'
                                  % val)
-
+        if not any([params['use_inchi'], params['use_name']]):
+            raise ValueError('At least one of "use_inchi" or "use_name" '
+                             'must be true')
         uuid_string = str(uuid.uuid4())
         scratch = self.shared_folder + "/" + uuid_string
         os.mkdir(scratch)
@@ -83,20 +85,22 @@ class MetabolomicsTools:
         # acquire metabolic model from the workspace and get inchikeys & names
         try:
             kb_model = ws_client.get_objects(
-                [{'name': params['metabolic_model'],
-                  'workspace': params['workspace_name']}])[0]
+                [{'ref': params['compound_object']}])[0]
         except Exception as e:
             raise ValueError(
-                'Unable to get metabolic model object from workspace: (' +
-                params['workspace_name'] + '/' +
-                params['metabolic_model'] + ')' + str(e))
+                'Unable to get metabolic model object from workspace: '
+                '{}\n{}'.format(params['compound_object'], e))
+
         kb_ids = [x['id'].replace('_c0', '')
                   for x in kb_model['data']['modelcompounds']]
+        comp_object_name = kb_model['info'][1]
         names, inchis = set(), set()
         for cid in kb_ids:
             if cid in comp_data:
-                names.update(comp_data[cid].get('names', None))
-                inchis.add(comp_data[cid].get('inchikey', None))
+                if params['use_name']:
+                    names.update(comp_data[cid].get('names', None))
+                if params['use_inchi']:
+                    inchis.add(comp_data[cid].get('inchikey', None))
 
         # Acquire Spectral Library
         if params['spectra_source'] == 'MoNA-API':
@@ -119,7 +123,7 @@ class MetabolomicsTools:
             raise RuntimeError("No matching spectra found")
 
         new_path = "%s/%s%s.msp" % (scratch, os.path.basename(output_file)[:-8],
-                                    params['metabolic_model'])
+                                    comp_object_name)
         shutil.move(output_file, new_path)
 
         # Package report
@@ -131,8 +135,8 @@ class MetabolomicsTools:
         report_params = {
             'objects_created': [],
             'message': 'Acquired %s matching spectra and filtered library to '
-                       '%s spectra which match the %s model' % (
-                n_in_spectra, n_out_spectra, params['metabolic_model']),
+                       '%s spectra which match the compounds in %s' % (
+                n_in_spectra, n_out_spectra, comp_object_name),
             'file_links': report_files,
             'workspace_name': params['workspace_name'],
             'report_object_name': 'mass_spectra_report_' + uuid_string
@@ -168,6 +172,7 @@ class MetabolomicsTools:
         # ctx is the context object
         # return variables are: output
         #BEGIN get_mine_spectra
+        raise NotImplementedError
         #END get_mine_spectra
 
         # At some point might do deeper type checking...

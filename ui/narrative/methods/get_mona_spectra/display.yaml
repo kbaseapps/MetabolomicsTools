@@ -3,7 +3,7 @@
 #
 name: Get Mass Spectra from MoNA
 tooltip: |
-    Search the Mass Bank of North America for mass spectra corresponding to a specified metabolic model
+    Search the Mass Bank of North America for mass spectra corresponding to a metabolic model or compound set
 screenshots: []
 
 icon: Mona.png
@@ -27,16 +27,26 @@ suggestions:
 # Configure the display and description of parameters
 #
 parameters :
-    metabolic_model :
+    compound_object :
         ui-name : |
-            Metabolic Model
+            Compound Object
         short-hint : |
-            The metabolic model with which to filter the spectral library
+            A FBAModel, CompoundSet or FBA object with which to filter the spectral library
     spectra_source :
         ui-name : |
             Spectra Source
         short-hint : |
             The spectra type to pull
+    use_inchi :
+        ui-name : |
+            Match by Structure
+        short-hint : |
+            If checked, the library will be serched for matching chemical structures by inchikey
+    use_name :
+        ui-name : |
+            Match by Name
+        short-hint : |
+            If checked, the library will be serched for spectra with matching names
     spectra_query :
         ui-name : |
             Spectra Source Query
